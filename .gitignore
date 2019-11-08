@@ -1,0 +1,8 @@
+kaa-node.deb
+kaa-flume.deb
+*.o
+*.war
+*.jar
+*.class
+*.tar.gz
+*.tar
