@@ -1,0 +1,30 @@
+{
+    "namespace": "org.kaaproject.kaa.server.appenders.maria.config.gen",
+    "type": "record",
+    "name": "MariaDbConfig",
+    "fields": [
+        {
+            "name":"mariaServers",
+            "displayName":"MariaDB nodes",
+            "minRowCount":1,
+            "type":{
+                "type":"array",
+                "items":{
+                    "namespace":"org.kaaproject.kaa.server.appenders.maria.config.gen",
+                    "type":"record",
+                    "name":"MariaDbServer",
+                    "fields":[
+    		            {"name": "host", "displayName": "Host", "by_default": "localhost", "type": "string", "weight":0.75},
+                        {"name": "port", "displayName": "Port", "by_default": 3306, "type": "int", "weight":0.25}
+                    ]
+                }
+            }
+        },
+            {"name": "dbname", "displayName": "DBName", "by_default": "DBName", "type": "string"},
+            {"name": "user", "displayName": "User", "by_default": "user", "type": "string"},
+            {"name": "password", "displayName": "Password", "by_default": "password", "inputType": "password", "type": "string"},
+            {"name": "maxactive", "displayName": "maxActive", "by_default": 10, "type": "int"},
+            {"name": "maxidle", "displayName": "maxIdle", "by_default": 10, "type": "int"},
+            {"name": "minidle", "displayName": "minIdle", "by_default": 0, "type": "int"}
+    ]
+}

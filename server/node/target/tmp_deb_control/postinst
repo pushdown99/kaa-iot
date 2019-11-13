@@ -1,0 +1,79 @@
+#!/bin/sh
+#
+# Copyright 2014-2016 CyberVision, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+set -e
+
+case "$1" in
+    configure)
+        if [ -h /usr/bin/kaa-node ]; then
+            rm -f /usr/bin/kaa-node
+        fi
+        
+        if [ -h /etc/kaa-node/conf ]; then
+            rm -f /etc/kaa-node/conf
+        fi
+        
+        if [ ! -d /etc/kaa-node ]; then
+            mkdir -p /etc/kaa-node
+        fi
+        
+        if [ ! -d /usr/lib/kaa-node/keys ]; then
+            mkdir -p /usr/lib/kaa-node/keys
+            chown -R kaa:kaa /usr/lib/kaa-node/keys
+            chmod 700 /usr/lib/kaa-node/keys
+        fi
+        
+        
+        if [ ! -d /var/log/kaa ]; then
+            mkdir -p /var/log/kaa
+        fi
+        
+        chown -R kaa:kaa /var/log/kaa
+        chmod 755 /var/log/kaa
+        
+        ln -s /usr/lib/kaa-node/bin/kaa-node /usr/bin/kaa-node
+        ln -s /usr/lib/kaa-node/conf /etc/kaa-node/conf
+        
+        if [ -f /usr/lib/kaa-node/bin/kaa-node.default ]; then
+            mv /usr/lib/kaa-node/bin/kaa-node.default /etc/default/kaa-node
+        fi
+        
+        if [ -f /usr/lib/kaa-node/bin/kaa-node.init.d ]; then
+            mv /usr/lib/kaa-node/bin/kaa-node.init.d /etc/init.d/kaa-node
+        fi
+        
+        if [ -x "/etc/init.d/kaa-node" ]; then
+            if [ ! -e "/etc/init/kaa-node.conf" ]; then
+                if ! chkconfig_loc="$(type -p "chkconfig")" || [ -z "$chkconfig_loc" ]; then
+                    update-rc.d -f kaa-node defaults >/dev/null || exit 1
+                else
+                    chkconfig --add kaa-node >/dev/null || exit 1
+                fi
+            fi
+        fi    
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0
+

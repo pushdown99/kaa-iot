@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\AbstractMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\AbstractVersionableMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\CredentialsMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\EndpointConfigurationMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\EndpointNotificationMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\EndpointProfileMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\EndpointRegistrationMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\EndpointUserConfigurationMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\EndpointUserMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\EndpointGroupState.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\EventClassFamilyVersionState.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoCredentials.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoDaoUtil.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoEndpointConfiguration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoEndpointNotification.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoEndpointProfile.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoEndpointRegistration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoEndpointUser.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoEndpointUserConfiguration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoModelConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoNotification.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\model\MongoTopicListEntry.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\NotificationMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\mongo\dao\TopicListEntryMongoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\mongo-dao\src\main\resources\common-dao-mongodb.properties">
+</file>
+</checkstyle>

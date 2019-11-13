@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\AbstractLogAppender.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\data\BaseLogEventPack.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\data\BaseProfileInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\data\BaseSchemaInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\data\ProfileInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\LogAppender.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\LogDeliveryCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\LogDeliveryErrorCode.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\LogEvent.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\LogEventPack.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\appender\LogSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\AvroSerializationWrapper.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\KaaFlumeEventReader.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\log-shared\src\main\java\org\kaaproject\kaa\server\common\log\shared\RecordWrapperSchemaGenerator.java">
+</file>
+</checkstyle>

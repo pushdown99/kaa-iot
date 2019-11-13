@@ -1,0 +1,13 @@
+org.kaaproject.kaa.common
+org.kaaproject.kaa.common.avro
+org.kaaproject.kaa.common.bootstrap
+org.kaaproject.kaa.common.channels
+org.kaaproject.kaa.common.channels.communication
+org.kaaproject.kaa.common.channels.protocols
+org.kaaproject.kaa.common.channels.protocols.kaatcp
+org.kaaproject.kaa.common.channels.protocols.kaatcp.listeners
+org.kaaproject.kaa.common.channels.protocols.kaatcp.messages
+org.kaaproject.kaa.common.endpoint
+org.kaaproject.kaa.common.endpoint.security
+org.kaaproject.kaa.common.hash
+org.kaaproject.kaa.schema.system

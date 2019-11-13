@@ -1,0 +1,7447 @@
+cscope 15 /var/www/html/kaa/kaa-iot/server/appenders/maria-appender               0000039458
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/avro/mariadb-appender-config.avsc
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/ConnectionManager.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	g­³nd”
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gCÚÃùiÚFaùÜy
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gDriv”Mªag”CÚÃùiÚFaùÜy
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gPoŞabËCÚÃùiÚFaùÜy
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gPoŞšgDriv”
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gpoŞ
+.
+	gim¶
+.
+	gG’”icObjeùPoŞ
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+;
+
+11 
+impÜt
+ 
+	gÜg
+.
+	g¦f4j
+.
+	gLogg”
+;
+
+12 
+impÜt
+ 
+	gÜg
+.
+	g¦f4j
+.
+	gLogg”FaùÜy
+;
+
+14 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gCÚÃùiÚ
+;
+
+15 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gDriv”Mªag”
+;
+
+16 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gSQLExû±iÚ
+;
+
+26 
+public
+ cÏs 
+	cCÚÃùiÚMªag”
+ {
+
+27 
+´iv©e
+ 
+fš®
+ 
+Logg”
+ 
+	mLOG
+ = 
+Logg”FaùÜy
+.
+g‘Logg”
+(
+CÚÃùiÚMªag”
+.
+şass
+);
+
+28 
+´iv©e
+ 
+SŒšg
+ 
+	mpoŞName
+ = 
+nuÎ
+;
+
+29 
+´iv©e
+ 
+SŒšg
+ 
+	mdriv”CÏssName
+ = 
+nuÎ
+;
+
+30 
+´iv©e
+ 
+SŒšg
+ 
+	mu¾
+ = 
+nuÎ
+;
+
+31 
+´iv©e
+ 
+SŒšg
+ 
+	mu£rName
+ = 
+nuÎ
+;
+
+32 
+´iv©e
+ 
+SŒšg
+ 
+	m·sswÜd
+ = 
+nuÎ
+;
+
+33 
+´iv©e
+ 
+	mmaxAùive
+;
+
+34 
+´iv©e
+ 
+	mmaxIdË
+;
+
+35 
+´iv©e
+ 
+	mmšIdË
+;
+
+36 
+´iv©e
+ 
+	mtimeB‘w“nEviùiÚRunsMlis
+;
+
+37 
+´iv©e
+ 
+	mnumTe¡sP”EviùiÚRun
+;
+
+38 
+´iv©e
+ 
+	mmšEviùabËIdËTimeMlis
+;
+
+39 
+´iv©e
+ 
+by‹
+ 
+	mwh’Exhau¡edAùiÚ
+;
+
+40 
+´iv©e
+ 
+	mmaxWa™
+;
+
+41 
+´iv©e
+ 
+boŞ—n
+ 
+	m‹¡OnBÜrow
+ = 
+çl£
+;
+
+42 
+´iv©e
+ 
+boŞ—n
+ 
+	m‹¡OnR‘uº
+ = 
+çl£
+;
+
+43 
+´iv©e
+ 
+boŞ—n
+ 
+	m‹¡WheIdË
+;
+
+44 
+´iv©e
+ 
+SŒšg
+ 
+	mvQu”y
+ = 
+nuÎ
+;
+
+45 
+´iv©e
+ 
+boŞ—n
+ 
+	mautoComm™
+ = 
+çl£
+;
+
+46 
+´iv©e
+ 
+boŞ—n
+ 
+	m»adOÆy
+ = 
+çl£
+;
+
+54 
+public
+ 
+	$š™
+(
+M¬ŸDbCÚfig
+ 
+cÚfigu¿tiÚ
+) {
+
+55 
+SŒšg
+ 
+£rv”s
+ = "";
+
+56 
+i
+ = 0; i < 
+cÚfigu¿tiÚ
+.
+	`g‘M¬ŸS”v”s
+().
+	`size
+(); i++) {
+
+57 
+£rv”s
+ +ğ
+cÚfigu¿tiÚ
+.
+	`g‘M¬ŸS”v”s
+().
+	`g‘
+(
+i
+).get("host") + ":" + configuration.getMariaServers().get(i).get("port");
+
+58 ià(
+i
+ + 1 !ğ
+cÚfigu¿tiÚ
+.
+	`g‘M¬ŸS”v”s
+().
+	`size
+()) {
+
+59 
+£rv”s
+ += ",";
+
+61 
+LOG
+.
+	`šfo
+("£rv” {}", 
+£rv”s
+);
+
+64 
+poŞName
+ = "pool";
+
+65 
+driv”CÏssName
+ = "org.mariadb.jdbc.Driver";
+
+66 
+u¾
+ = "jdbc:m¬Ÿdb://" + 
+£rv”s
+ + "/" + 
+cÚfigu¿tiÚ
+.
+	`g‘DbÇme
+();
+
+67 
+LOG
+.
+	`šfo
+("???????? u¾ {}", 
+u¾
+);
+
+68 
+u£rName
+ = 
+cÚfigu¿tiÚ
+.
+	`g‘U£r
+();
+
+69 
+·sswÜd
+ = 
+cÚfigu¿tiÚ
+.
+	`g‘PasswÜd
+();
+
+71 
+maxAùive
+ = 
+cÚfigu¿tiÚ
+.
+	`g‘Maxaùive
+();
+
+72 
+maxIdË
+ = 
+cÚfigu¿tiÚ
+.
+	`g‘MaxidË
+();
+
+73 
+mšIdË
+ = 
+cÚfigu¿tiÚ
+.
+	`g‘MšidË
+();
+
+75 
+LOG
+.
+	`šfo
+("><!@cÚfigu¿tiÚ maxAùivğ{}, maxIdË = {}, mšIdË = {}", 
+maxAùive
+, 
+maxIdË
+, 
+mšIdË
+);
+
+77 
+timeB‘w“nEviùiÚRunsMlis
+ = 1800000L;
+
+78 
+numTe¡sP”EviùiÚRun
+ = 1;
+
+79 
+mšEviùabËIdËTimeMlis
+ = 3600000L;
+
+81 
+wh’Exhau¡edAùiÚ
+ = 1;
+
+82 
+maxWa™
+ = 10000L;
+
+84 
+‹¡OnBÜrow
+ = 
+çl£
+;
+
+85 
+‹¡OnR‘uº
+ = 
+çl£
+;
+
+86 
+‹¡WheIdË
+ = 
+Œue
+;
+
+87 
+vQu”y
+ = "select 1";
+
+89 
+autoComm™
+ = 
+çl£
+;
+
+90 
+»adOÆy
+ = 
+çl£
+;
+
+92 
+LOG
+.
+	`šfo
+("MariaDB Connected");
+
+94 
+Œy
+ {
+
+95 
+CÏss
+.
+	`fÜName
+(
+driv”CÏssName
+);
+
+96 } 
+	`ÿtch
+ (
+CÏssNÙFoundExû±iÚ
+ 
+ex
+) {
+
+97 
+ex
+.
+	`´štSckT¿û
+();
+
+99 
+G’”icObjeùPoŞ
+ 
+cÚÃùiÚPoŞ
+ = 
+Ãw
+ 
+	`G’”icObjeùPoŞ
+(
+nuÎ
+);
+
+100 
+cÚÃùiÚPoŞ
+.
+	`£tMaxAùive
+(
+maxAùive
+);
+
+101 
+cÚÃùiÚPoŞ
+.
+	`£tMaxIdË
+(
+maxIdË
+);
+
+102 
+cÚÃùiÚPoŞ
+.
+	`£tMšIdË
+(
+mšIdË
+);
+
+103 
+cÚÃùiÚPoŞ
+.
+	`£tTimeB‘w“nEviùiÚRunsMlis
+(
+timeB‘w“nEviùiÚRunsMlis
+);
+
+104 
+cÚÃùiÚPoŞ
+.
+	`£tNumTe¡sP”EviùiÚRun
+(
+numTe¡sP”EviùiÚRun
+);
+
+105 
+cÚÃùiÚPoŞ
+.
+	`£tMšEviùabËIdËTimeMlis
+(
+mšEviùabËIdËTimeMlis
+);
+
+106 
+cÚÃùiÚPoŞ
+.
+	`£tWh’Exhau¡edAùiÚ
+(
+wh’Exhau¡edAùiÚ
+);
+
+107 
+cÚÃùiÚPoŞ
+.
+	`£tMaxWa™
+(
+maxWa™
+);
+
+108 
+cÚÃùiÚPoŞ
+.
+	`£tTe¡OnBÜrow
+(
+‹¡OnBÜrow
+);
+
+109 
+cÚÃùiÚPoŞ
+.
+	`£tTe¡OnR‘uº
+(
+‹¡OnR‘uº
+);
+
+110 
+cÚÃùiÚPoŞ
+.
+	`£tTe¡WheIdË
+(
+‹¡WheIdË
+);
+
+112 
+CÚÃùiÚFaùÜy
+ 
+cÚÃùiÚFaùÜy
+ = 
+Ãw
+ 
+	`Driv”Mªag”CÚÃùiÚFaùÜy
+(
+u¾
+, 
+u£rName
+, 
+·sswÜd
+);
+
+113 
+PoŞabËCÚÃùiÚFaùÜy
+ 
+poŞabËCÚÃùiÚFaùÜy
+ = 
+Ãw
+ 
+	`PoŞabËCÚÃùiÚFaùÜy
+(
+cÚÃùiÚFaùÜy
+, 
+cÚÃùiÚPoŞ
+, 
+nuÎ
+, 
+vQu”y
+, 
+»adOÆy
+, 
+autoComm™
+);
+
+114 
+Œy
+ {
+
+115 
+CÏss
+.
+	`fÜName
+("org.apache.commons.dbcp.PoolingDriver");
+
+116 
+PoŞšgDriv”
+ 
+driv”
+ = (PoŞšgDriv”è
+Driv”Mªag”
+.
+	`g‘Driv”
+("jdbc:apache:commons:dbcp:");
+
+117 
+driv”
+.
+	`»gi¡”PoŞ
+(
+poŞName
+, 
+poŞabËCÚÃùiÚFaùÜy
+.
+	`g‘PoŞ
+());
+
+118 } 
+	`ÿtch
+ (
+CÏssNÙFoundExû±iÚ
+ 
+ex
+) {
+
+119 
+ex
+.
+	`´štSckT¿û
+();
+
+120 } 
+	`ÿtch
+ (
+SQLExû±iÚ
+ 
+ex
+) {
+
+121 
+ex
+.
+	`´štSckT¿û
+();
+
+125 
+public
+ 
+CÚÃùiÚ
+ 
+	$g‘CÚÃùiÚ
+(è
+throws
+ 
+SQLExû±iÚ
+ {
+
+126  
+Driv”Mªag”
+.
+	`g‘CÚÃùiÚ
+("jdbc:­ache:commÚs:dbı:" + 
+poŞName
+);
+
+127 
+	}
+}
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEvent.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	g­³nd”
+;
+
+3 
+impÜt
+ 
+	gjava
+.
+	gio
+.
+	gS”ŸlizabË
+;
+
+4 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gHashM­
+;
+
+13 
+public
+ 
+fš®
+ cÏs 
+	cLogEv’t
+ 
+im¶em’ts
+ 
+	mS”ŸlizabË
+ {
+
+15 
+´iv©e
+ 
+fš®
+ 
+	m£rŸlV”siÚUID
+ = -1L;
+
+16 
+´iv©e
+ 
+SŒšg
+ 
+	mh—d”
+ = "";
+
+17 
+´iv©e
+ 
+SŒšg
+ 
+	mev’t
+ = "";
+
+19 
+public
+ 
+	$LogEv’t
+() {
+
+23 
+public
+ 
+SŒšg
+ 
+	$g‘H—d”
+() {
+
+24  
+h—d”
+;
+
+25 
+	}
+}
+
+28 
+public
+ 
+	$£tH—d”
+(
+SŒšg
+ 
+h—d”
+) {
+
+29 
+this
+.
+h—d”
+ = header;
+
+30 
+	}
+}
+
+33 
+public
+ 
+SŒšg
+ 
+	$g‘Ev’t
+() {
+
+34  
+ev’t
+;
+
+35 
+	}
+}
+
+38 
+public
+ 
+	$£tEv’t
+(
+SŒšg
+ 
+ev’t
+) {
+
+39 
+this
+.
+ev’t
+ =ƒvent;
+
+40 
+	}
+}
+
+43 @
+Ov”ride
+
+
+44 
+public
+ 
+SŒšg
+ 
+	$toSŒšg
+() {
+
+45  "LogEv’ˆ[h—d”=" + 
+h—d”
+ + ",ƒv’t=" + 
+ev’t
+ + "]";
+
+46 
+	}
+}
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEventDao.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	g­³nd”
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	gcommÚ
+.
+	gdto
+.
+	glogs
+.
+	gLogEv’tDto
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	glog
+.
+	gsh¬ed
+.
+	gavro
+.
+	gg’
+.
+	gRecÜdH—d”
+;
+
+6 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+15 
+public
+ 
+š‹rçû
+ 
+	gLogEv’tDao
+ {
+
+17 
+š£¹
+(
+RecÜdH—d”
+ 
+h—d”
+, 
+Li¡
+<
+LogEv’tDto
+> 
+logEv’tDtos
+è
+throws
+ 
+	gExû±iÚ
+;
+
+19 
+şo£
+();
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEventMariaDao.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	g­³nd”
+;
+
+3 
+impÜt
+ 
+	gcom
+.
+	ggoogË
+.
+	ggsÚ
+.
+	gGsÚ
+;
+
+4 
+impÜt
+ 
+	gcom
+.
+	ggoogË
+.
+	ggsÚ
+.
+	gJsÚA¼ay
+;
+
+5 
+impÜt
+ 
+	gcom
+.
+	ggoogË
+.
+	ggsÚ
+.
+	gJsÚEËm’t
+;
+
+6 
+impÜt
+ 
+	gcom
+.
+	ggoogË
+.
+	ggsÚ
+.
+	gJsÚP¬£r
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gCÚÃùiÚFaùÜy
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gDriv”Mªag”CÚÃùiÚFaùÜy
+;
+
+10 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gPoŞabËCÚÃùiÚFaùÜy
+;
+
+11 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gdbı
+.
+	gPoŞšgDriv”
+;
+
+12 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gcommÚs
+.
+	gpoŞ
+.
+	gim¶
+.
+	gG’”icObjeùPoŞ
+;
+
+14 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	gcommÚ
+.
+	gdto
+.
+	glogs
+.
+	gLogEv’tDto
+;
+
+15 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	g­³nd”
+.
+	gCÚÃùiÚMªag”
+;
+
+16 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+;
+
+17 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	glog
+.
+	gsh¬ed
+.
+	gavro
+.
+	gg’
+.
+	gRecÜdH—d”
+;
+
+18 
+impÜt
+ 
+	gÜg
+.
+	g¦f4j
+.
+	gLogg”
+;
+
+19 
+impÜt
+ 
+	gÜg
+.
+	g¦f4j
+.
+	gLogg”FaùÜy
+;
+
+21 
+impÜt
+ 
+	gjava
+.
+	gm©h
+.
+	gBigDecim®
+;
+
+23 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gCÚÃùiÚ
+;
+
+24 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gD©e
+;
+
+25 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gDriv”Mªag”
+;
+
+26 
+impÜt
+ 
+	gjava
+.
+	gsql
+.
+	gP»·»dS‹m’t
+;
+
+28 
+impÜt
+ 
+	gjava
+.
+	g‹xt
+.
+	gSim¶eD©eFÜm©
+;
+
+29 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gA¼ayLi¡
+;
+
+30 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+39 
+public
+ cÏs 
+	cLogEv’tM¬ŸDao
+ 
+im¶em’ts
+ 
+	mLogEv’tDao
+ {
+
+41 
+´iv©e
+ 
+fš®
+ 
+Logg”
+ 
+	mLOG
+ = 
+Logg”FaùÜy
+.
+g‘Logg”
+(
+LogEv’tM¬ŸDao
+.
+şass
+);
+
+43 
+public
+ 
+	$LogEv’tM¬ŸDao
+(
+M¬ŸDbCÚfig
+ 
+cÚfigu¿tiÚ
+è
+throws
+ 
+Exû±iÚ
+ {
+
+44 
+LOG
+.
+	`šfo
+("!!!!!!!!!!!!!!! LogEventMariaDao !!!!!!!!!!!!!!!!");
+
+45 
+CÚÃùiÚMªag”
+.
+	`š™
+(
+cÚfigu¿tiÚ
+);
+
+48 @
+Ov”ride
+
+
+49 
+public
+ 
+	`š£¹
+(
+RecÜdH—d”
+ 
+»cÜdH—d”
+, 
+Li¡
+<
+LogEv’tDto
+> 
+logEv’tDtos
+è
+throws
+ 
+Exû±iÚ
+ {
+
+51 
+LOG
+.
+	`šfo
+("++++++++++ insert start +++++++++++");
+
+52 
+LOG
+.
+	`debug
+("[{}]†ogEv’tDtos", 
+logEv’tDtos
+);
+
+53 
+LOG
+.
+	`šfo
+("^^^^^^^^^^{}", 
+logEv’tDtos
+);
+
+55 
+JsÚP¬£r
+ 
+·r£r
+ = 
+Ãw
+ 
+	`JsÚP¬£r
+();
+
+56 
+JsÚA¼ay
+ 
+jsÚA¼
+ = 
+Ãw
+ 
+	`JsÚA¼ay
+();
+
+58 
+i
+ = 0; i < 
+logEv’tDtos
+.
+	`size
+(); i++) {
+
+59 
+jsÚA¼
+.
+	`add
+(
+·r£r
+.
+	`·r£
+(
+logEv’tDtos
+.
+	`g‘
+(
+i
+).
+	`g‘Ev’t
+()));
+
+60 
+LOG
+.
+	`debug
+("[{}]‡¼ay[i]", 
+jsÚA¼
+.
+	`g‘
+(
+i
+));
+
+63 
+LOG
+.
+	`debug
+("[{}]‡¼ay", 
+jsÚA¼
+);
+
+64 
+LOG
+.
+	`debug
+("[{}]‡¼ay size", 
+jsÚA¼
+.
+	`size
+());
+
+66 
+i
+ = 0; i < 
+jsÚA¼
+.
+	`size
+(); i++) {
+
+67 
+LOG
+.
+	`debug
+("[{}]‡¼ay size, [{}] in£¹", 
+jsÚA¼
+.
+	`size
+(), 
+i
+ + 1);
+
+68 ià(
+jsÚA¼
+.
+	`g‘
+(
+i
+).
+	`g‘AsJsÚObjeù
+().g‘("DeviûId"è!ğ
+nuÎ
+) {
+
+69 
+LOG
+.
+	`šfo
+("Sensor");
+
+70 
+	`£nsÜ
+(
+jsÚA¼
+.
+	`g‘
+(
+i
+));
+
+72 
+LOG
+.
+	`šfo
+("Electr");
+
+73 
+	`–eù
+(
+jsÚA¼
+.
+	`g‘
+(
+i
+));
+
+76 
+	}
+}
+
+83 
+public
+ 
+	$£nsÜ
+(
+JsÚEËm’t
+ 
+–em’t
+è
+throws
+ 
+Exû±iÚ
+ {
+
+84 
+CÚÃùiÚ
+ 
+cÚn
+ = 
+nuÎ
+;
+
+85 
+P»·»dS‹m’t
+ 
+p¡mt
+ = 
+nuÎ
+;
+
+87 
+deviûId
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("DeviûId").
+	`g‘AsIÁ
+();
+
+88 
+BigDecim®
+ 
+‹m³¿tu»
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Tem³¿tu»").
+	`g‘AsBigDecim®
+();
+
+89 
+BigDecim®
+ 
+humid™y
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Humid™y").
+	`g‘AsBigDecim®
+();
+
+90 
+fšeDu¡
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("FšeDu¡").
+	`g‘AsIÁ
+();
+
+91 
+uÉ¿fšeDu¡
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("UÉ¿fšeDu¡").
+	`g‘AsIÁ
+();
+
+92 
+BigDecim®
+ 
+ÿrbÚMÚoxide
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("C¬bÚMÚoxide").
+	`g‘AsBigDecim®
+();
+
+93 
+BigDecim®
+ 
+ozÚe
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("OzÚe").
+	`g‘AsBigDecim®
+();
+
+94 
+BigDecim®
+ 
+n™rog’Dioxide
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("N™rog’Dioxide").
+	`g‘AsBigDecim®
+();
+
+96 
+ld©e
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("D©eTime").
+	`g‘AsLÚg
+();
+
+97 
+D©e
+ 
+d©—
+ = 
+Ãw
+ 
+	`D©e
+(
+ld©e
+);
+
+98 
+Sim¶eD©eFÜm©
+ 
+df
+ = 
+Ãw
+ 
+	`Sim¶eD©eFÜm©
+("YYYY-MM-dd HH:mm:ss.SSS");
+
+99 
+SŒšg
+ 
+sd©e
+ = 
+df
+.
+	`fÜm©
+(
+d©—
+);
+
+101 
+java
+.
+sql
+.
+Time¡amp
+ 
+d©eTime
+ = java.sql.Time¡amp.
+	`v®ueOf
+(
+sd©e
+);
+
+103 
+Œy
+ {
+
+104 
+SŒšg
+ 
+sql
+ = "insert into T101_TBL values(?,?,?,?,?,?,?,?,?)";
+
+105 
+cÚn
+ = 
+CÚÃùiÚMªag”
+.
+	`g‘CÚÃùiÚ
+();
+
+107 
+p¡mt
+ = 
+cÚn
+.
+	`´•¬eS‹m’t
+(
+sql
+);
+
+108 
+p¡mt
+.
+	`£tIÁ
+(1, 
+deviûId
+);
+
+109 
+p¡mt
+.
+	`£tBigDecim®
+(2, 
+‹m³¿tu»
+);
+
+110 
+p¡mt
+.
+	`£tBigDecim®
+(3, 
+humid™y
+);
+
+111 
+p¡mt
+.
+	`£tIÁ
+(4, 
+fšeDu¡
+);
+
+112 
+p¡mt
+.
+	`£tIÁ
+(5, 
+uÉ¿fšeDu¡
+);
+
+113 
+p¡mt
+.
+	`£tBigDecim®
+(6, 
+ÿrbÚMÚoxide
+);
+
+114 
+p¡mt
+.
+	`£tBigDecim®
+(7, 
+ozÚe
+);
+
+115 
+p¡mt
+.
+	`£tBigDecim®
+(8, 
+n™rog’Dioxide
+);
+
+116 
+p¡mt
+.
+	`£tTime¡amp
+(9, 
+d©eTime
+);
+
+118 
+p¡mt
+.
+	`execu‹Upd©e
+();
+
+119 
+cÚn
+.
+	`comm™
+();
+
+120 
+LOG
+.
+	`šfo
+("+++++++++++ insertƒnd +++++++++++");
+
+122 } 
+	`ÿtch
+ (
+Exû±iÚ
+ 
+ex
+) {
+
+123 
+LOG
+.
+	`w¬n
+("In£¹ Faed", 
+ex
+);
+
+124 } 
+fš®ly
+ {
+
+125 ià(
+p¡mt
+ !ğ
+nuÎ
+) {
+
+126 
+p¡mt
+.
+	`şo£
+();
+
+128 ià(
+cÚn
+ !ğ
+nuÎ
+) {
+
+129 
+cÚn
+.
+	`şo£
+();
+
+132 
+	}
+}
+
+139 
+public
+ 
+	$–eù
+(
+JsÚEËm’t
+ 
+–em’t
+è
+throws
+ 
+Exû±iÚ
+ {
+
+140 
+CÚÃùiÚ
+ 
+cÚn
+ = 
+nuÎ
+;
+
+141 
+P»·»dS‹m’t
+ 
+p¡mt
+ = 
+nuÎ
+;
+
+143 
+·ÃlBßrdId
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Pª–BßrdId").
+	`g‘AsIÁ
+();
+
+144 
+–eùricPow”Id
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("EËùricPow”Id").
+	`g‘AsIÁ
+();
+
+145 
+BigDecim®
+ 
+–eùricCu¼’tR
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("EËùricCu¼’tR").
+	`g‘AsBigDecim®
+();
+
+146 
+BigDecim®
+ 
+–eùricCu¼’tS
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("EËùricCu¼’tS").
+	`g‘AsBigDecim®
+();
+
+147 
+BigDecim®
+ 
+–eùricCu¼’tT
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("EËùricCu¼’tT").
+	`g‘AsBigDecim®
+();
+
+148 
+BigDecim®
+ 
+pow”FaùÜ
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Pow”FaùÜ").
+	`g‘AsBigDecim®
+();
+
+149 
+BigDecim®
+ 
+aùivePow”
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("AùivePow”").
+	`g‘AsBigDecim®
+();
+
+150 
+BigDecim®
+ 
+»aùivePow”
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("R—ùivePow”").
+	`g‘AsBigDecim®
+();
+
+151 
+BigDecim®
+ 
+aùivePow”VŞume
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("AùivePow”VŞume").
+	`g‘AsBigDecim®
+();
+
+152 
+BigDecim®
+ 
+»aùivePow”VŞume
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("R—ùivePow”VŞume").
+	`g‘AsBigDecim®
+();
+
+153 
+BigDecim®
+ 
+pha£VŞgeRs
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Pha£VŞgeRS").
+	`g‘AsBigDecim®
+();
+
+154 
+BigDecim®
+ 
+pha£VŞgeSt
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Pha£VŞgeST").
+	`g‘AsBigDecim®
+();
+
+155 
+BigDecim®
+ 
+pha£VŞgeTr
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Pha£VŞgeTR").
+	`g‘AsBigDecim®
+();
+
+156 
+BigDecim®
+ 
+u£Pow”
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("U£Pow”").
+	`g‘AsBigDecim®
+();
+
+157 
+BigDecim®
+ 
+wa™Pow”
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("Wa™Pow”").
+	`g‘AsBigDecim®
+();
+
+159 
+BigDecim®
+ 
+bd
+ = 
+Ãw
+ 
+	`BigDecim®
+(103.4);
+
+160 
+BigDecim®
+ 
+u£F“
+ = 
+u£Pow”
+.
+	`muÉly
+(
+bd
+);
+
+161 
+BigDecim®
+ 
+wa™F“
+ = 
+wa™Pow”
+.
+	`muÉly
+(
+bd
+);
+
+162 
+accumuÏ‹Time
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("AccumuÏ‹Time").
+	`g‘AsIÁ
+();
+
+163 
+İ”©šgS‹
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("O³¿tšgS‹").
+	`g‘AsIÁ
+();
+
+165 
+ld©e
+ = 
+–em’t
+.
+	`g‘AsJsÚObjeù
+().
+	`g‘
+("D©eTime").
+	`g‘AsLÚg
+();
+
+166 
+D©e
+ 
+d©—
+ = 
+Ãw
+ 
+	`D©e
+(
+ld©e
+);
+
+167 
+Sim¶eD©eFÜm©
+ 
+df
+ = 
+Ãw
+ 
+	`Sim¶eD©eFÜm©
+("YYYY-MM-dd HH:mm:ss.SSS");
+
+168 
+SŒšg
+ 
+sd©e
+ = 
+df
+.
+	`fÜm©
+(
+d©—
+);
+
+170 
+java
+.
+sql
+.
+Time¡amp
+ 
+d©eTime
+ = java.sql.Time¡amp.
+	`v®ueOf
+(
+sd©e
+);
+
+172 
+Œy
+ {
+
+173 
+SŒšg
+ 
+sql
+ = "insert into T102_TBL values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+
+174 
+cÚn
+ = 
+CÚÃùiÚMªag”
+.
+	`g‘CÚÃùiÚ
+();
+
+176 
+p¡mt
+ = 
+cÚn
+.
+	`´•¬eS‹m’t
+(
+sql
+);
+
+177 
+p¡mt
+.
+	`£tIÁ
+(1, 
+·ÃlBßrdId
+);
+
+178 
+p¡mt
+.
+	`£tIÁ
+(2, 
+–eùricPow”Id
+);
+
+179 
+p¡mt
+.
+	`£tBigDecim®
+(3, 
+–eùricCu¼’tR
+);
+
+180 
+p¡mt
+.
+	`£tBigDecim®
+(4, 
+–eùricCu¼’tS
+);
+
+181 
+p¡mt
+.
+	`£tBigDecim®
+(5, 
+–eùricCu¼’tT
+);
+
+182 
+p¡mt
+.
+	`£tBigDecim®
+(6, 
+pow”FaùÜ
+);
+
+183 
+p¡mt
+.
+	`£tBigDecim®
+(7, 
+aùivePow”
+);
+
+184 
+p¡mt
+.
+	`£tBigDecim®
+(8, 
+»aùivePow”
+);
+
+185 
+p¡mt
+.
+	`£tBigDecim®
+(9, 
+aùivePow”VŞume
+);
+
+186 
+p¡mt
+.
+	`£tBigDecim®
+(10, 
+»aùivePow”VŞume
+);
+
+187 
+p¡mt
+.
+	`£tBigDecim®
+(11, 
+pha£VŞgeRs
+);
+
+188 
+p¡mt
+.
+	`£tBigDecim®
+(12, 
+pha£VŞgeSt
+);
+
+189 
+p¡mt
+.
+	`£tBigDecim®
+(13, 
+pha£VŞgeTr
+);
+
+190 
+p¡mt
+.
+	`£tBigDecim®
+(14, 
+u£Pow”
+);
+
+191 
+p¡mt
+.
+	`£tBigDecim®
+(15, 
+wa™Pow”
+);
+
+192 
+p¡mt
+.
+	`£tBigDecim®
+(16, 
+u£F“
+);
+
+193 
+p¡mt
+.
+	`£tBigDecim®
+(17, 
+wa™F“
+);
+
+194 
+p¡mt
+.
+	`£tIÁ
+(18, 
+accumuÏ‹Time
+);
+
+195 
+p¡mt
+.
+	`£tIÁ
+(19, 
+İ”©šgS‹
+);
+
+196 
+p¡mt
+.
+	`£tTime¡amp
+(20, 
+d©eTime
+);
+
+198 
+p¡mt
+.
+	`execu‹Upd©e
+();
+
+199 
+cÚn
+.
+	`comm™
+();
+
+200 
+LOG
+.
+	`šfo
+("+++++++++++ insertƒnd +++++++++++");
+
+202 } 
+	`ÿtch
+ (
+Exû±iÚ
+ 
+ex
+) {
+
+203 
+LOG
+.
+	`w¬n
+("In£¹ Faed", 
+ex
+);
+
+204 } 
+fš®ly
+ {
+
+205 ià(
+p¡mt
+ !ğ
+nuÎ
+) {
+
+206 
+p¡mt
+.
+	`şo£
+();
+
+208 ià(
+cÚn
+ !ğ
+nuÎ
+) {
+
+209 
+cÚn
+.
+	`şo£
+();
+
+212 
+	}
+}
+
+214 @
+Ov”ride
+
+
+215 
+public
+ 
+	$şo£
+() {
+
+216 
+	}
+}
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/MariaDbLogAppender.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	g­³nd”
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	gcommÚ
+.
+	gdto
+.
+	glogs
+.
+	gLogAµ’d”Dto
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	gcommÚ
+.
+	gdto
+.
+	glogs
+.
+	gLogEv’tDto
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	glog
+.
+	gsh¬ed
+.
+	g­³nd”
+.
+	gAb¡¿ùLogAµ’d”
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	glog
+.
+	gsh¬ed
+.
+	g­³nd”
+.
+	gLogD–iv”yC®lback
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	glog
+.
+	gsh¬ed
+.
+	g­³nd”
+.
+	gLogEv’tPack
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	glog
+.
+	gsh¬ed
+.
+	gavro
+.
+	gg’
+.
+	gRecÜdH—d”
+;
+
+10 
+impÜt
+ 
+	gÜg
+.
+	g¦f4j
+.
+	gLogg”
+;
+
+11 
+impÜt
+ 
+	gÜg
+.
+	g¦f4j
+.
+	gLogg”FaùÜy
+;
+
+13 
+impÜt
+ 
+	gjava
+.
+	g‹xt
+.
+	gMes§geFÜm©
+;
+
+14 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+;
+
+24 
+public
+ 
+şass
+ 
+M¬ŸDbLogAµ’d”
+ 
+ex‹nds
+ 
+	gAb¡¿ùLogAµ’d”
+<
+	gM¬ŸDbCÚfig
+> {
+
+26 
+´iv©e
+ 
+fš®
+ 
+Logg”
+ 
+	gLOG
+ = 
+Logg”FaùÜy
+.
+g‘Logg”
+(
+M¬ŸDbLogAµ’d”
+.
+şass
+);
+
+28 
+´iv©e
+ 
+LogEv’tDao
+ 
+	glogEv’tDao
+ = 
+nuÎ
+;
+
+29 
+´iv©e
+ 
+boŞ—n
+ 
+	gşo£d
+ = 
+çl£
+;
+
+31 
+public
+ 
+M¬ŸDbLogAµ’d”
+() {
+
+32 
+su³r
+(
+M¬ŸDbCÚfig
+.
+şass
+);
+
+42 @
+Ov”ride
+
+
+43 
+´Ùeùed
+ 
+š™FromCÚfigu¿tiÚ
+(
+LogAµ’d”Dto
+ 
+­³nd”
+, 
+M¬ŸDbCÚfig
+ 
+cÚfigu¿tiÚ
+) {
+
+44 
+	gŒy
+ {
+
+45 
+	gLOG
+.
+šfo
+("***** In™Ÿlizšg M¬Ÿ Db Aµ’d” CÚfigu¿tiÚ......=>" + 
+cÚfigu¿tiÚ
+);
+
+46 
+	gthis
+.
+	glogEv’tDao
+ = 
+Ãw
+ 
+LogEv’tM¬ŸDao
+(
+cÚfigu¿tiÚ
+);
+
+47 } 
+ÿtch
+ (
+Exû±iÚ
+ 
+ex
+) {
+
+48 
+	gLOG
+.
+”rÜ
+("FaedØš™ M¬Ÿ Db†og‡µ’d”: ", 
+ex
+);
+
+52 @
+Ov”ride
+
+
+53 
+public
+ 
+doAµ’d
+(
+LogEv’tPack
+ 
+logEv’tPack
+, 
+RecÜdH—d”
+ 
+h—d”
+, 
+LogD–iv”yC®lback
+ 
+li¡’”
+) {
+
+54 
+RecÜdH—d”
+ 
+	gloÿlh—d”
+ = 
+h—d”
+;
+
+55 
+	gŒy
+ {
+
+56 ià(!
+	gşo£d
+) {
+
+57 
+	gŒy
+ {
+
+58 
+	gLOG
+.
+debug
+("[{}]‡µ’dšg {}†og tØM¬Ÿ Db chªÃl", 
+g‘AµliÿtiÚTok’
+(), 
+logEv’tPack
+.
+g‘Ev’ts
+().
+size
+());
+
+60 
+	gLi¡
+<
+	gLogEv’tDto
+> 
+	gli¡dtos
+ = 
+g’”©eLogEv’t
+(
+logEv’tPack
+, 
+h—d”
+);
+
+61 
+	gLOG
+.
+debug
+("[{}] savšg {} objeùs", 
+g‘AµliÿtiÚTok’
+(), 
+li¡dtos
+.
+size
+());
+
+62 ià(
+	gli¡dtos
+.
+size
+() > 0) {
+
+63 
+	gthis
+.
+	glogEv’tDao
+.
+š£¹
+(
+loÿlh—d”
+, 
+li¡dtos
+);
+
+64 
+	gLOG
+.
+debug
+("[{}]…ublished {}†og tØM¬Ÿ Db chªÃl", 
+g‘AµliÿtiÚTok’
+(), 
+logEv’tPack
+.
+g‘Ev’ts
+().
+size
+());
+
+66 
+	gli¡’”
+.
+ÚSucûss
+();
+
+67 } 
+ÿtch
+ (
+Exû±iÚ
+ 
+ex
+) {
+
+68 
+	gLOG
+.
+”rÜ
+(
+Mes§geFÜm©
+.
+fÜm©
+("[{0}] A‰em±edØpublish†og çed dutØš‹º®ƒ¼Ü", 
+g‘Name
+()), 
+ex
+);
+
+69 
+	gli¡’”
+.
+ÚIÁ”ÇlE¼Ü
+();
+
+72 
+	gLOG
+.
+šfo
+("A‰em±edØpublishØşo£d‡µ’d”‚amed [{}].", 
+g‘Name
+());
+
+73 
+	gli¡’”
+.
+ÚIÁ”ÇlE¼Ü
+();
+
+75 } 
+ÿtch
+ (
+Exû±iÚ
+ 
+ex
+) {
+
+76 
+	gLOG
+.
+”rÜ
+(
+Mes§geFÜm©
+.
+fÜm©
+("[{0}] A‰em±edØpublish†og çed dutØš‹º®ƒ¼Ü", 
+g‘Name
+()), 
+ex
+);
+
+85 @
+Ov”ride
+
+
+86 
+public
+ 
+şo£
+() {
+
+87 ià(!
+	gşo£d
+) {
+
+88 
+	gşo£d
+ = 
+Œue
+;
+
+89 ià(
+	glogEv’tDao
+ !ğ
+nuÎ
+) {
+
+90 
+logEv’tDao
+.
+şo£
+();
+
+91 
+	glogEv’tDao
+ = 
+nuÎ
+;
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/MariaDbAppenderConfig.java
+
+17 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+;
+
+19 
+impÜt
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	gSchema
+;
+
+20 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+;
+
+21 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	g¶ugš
+.
+	gK¯PlugšCÚfig
+;
+
+22 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	g¶ugš
+.
+	gPlugšCÚfig
+;
+
+23 
+impÜt
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	gcommÚ
+.
+	g¶ugš
+.
+	gPlugšTy³
+;
+
+32 @
+	$K¯PlugšCÚfig
+(
+¶ugšTy³
+ = 
+PlugšTy³
+.
+LOG_APPENDER
+)
+
+33 
+public
+ cÏs 
+	cM¬ŸDbAµ’d”CÚfig
+ 
+im¶em’ts
+ 
+PlugšCÚfig
+ {
+
+35 
+public
+ 
+	$M¬ŸDbAµ’d”CÚfig
+() {
+
+38 @
+Ov”ride
+
+
+39 
+public
+ 
+SŒšg
+ 
+	$g‘PlugšTy³Name
+() {
+
+41 
+	}
+}
+
+43 @
+Ov”ride
+
+
+44 
+public
+ 
+SŒšg
+ 
+	$g‘PlugšCÏssName
+() {
+
+46 
+	}
+}
+
+48 @
+Ov”ride
+
+
+49 
+public
+ 
+Schema
+ 
+	$g‘PlugšCÚfigSchema
+() {
+
+50  
+M¬ŸDbCÚfig
+.
+	`g‘CÏssSchema
+();
+
+51 
+	}
+}
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/gen/MariaDbConfig.java
+
+6 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+;
+
+7 @
+Suµ»ssW¬nšgs
+("all")
+
+8 @
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	g¥ecific
+.
+AvroG’”©ed
+
+
+9 
+public
+ 
+şass
+ 
+M¬ŸDbCÚfig
+ 
+ex‹nds
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	g¥ecific
+.
+S³cificRecÜdBa£
+ 
+im¶em’ts
+ org.­ache.avro.¥ecific.
+	gS³cificRecÜd
+ {
+
+10 
+public
+ 
+fš®
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+Schema
+ 
+	gSCHEMA$
+ = 
+Ãw
+ 
+Üg
+.
+­ache
+.
+avro
+.Schema.
+P¬£r
+().
+·r£
+("{\"type\":\"record\",\"name\":\"MariaDbConfig\",\"namespace\":\"org.kaaproject.kaa.server.appenders.maria.config.gen\",\"fields\":[{\"name\":\"mariaServers\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"MariaDbServer\",\"fields\":[{\"name\":\"host\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"displayName\":\"Host\",\"by_default\":\"localhost\",\"weight\":0.75},{\"name\":\"port\",\"type\":\"int\",\"displayName\":\"Port\",\"by_default\":3306,\"weight\":0.25}]}},\"displayName\":\"MariaDB‚odes\",\"minRowCount\":1},{\"name\":\"dbname\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"displayName\":\"DBName\",\"by_default\":\"DBName\"},{\"name\":\"user\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"displayName\":\"User\",\"by_default\":\"user\"},{\"name\":\"password\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"displayName\":\"Password\",\"by_default\":\"password\",\"inputType\":\"password\"},{\"name\":\"maxactive\",\"type\":\"int\",\"displayName\":\"maxActive\",\"by_default\":10},{\"name\":\"maxidle\",\"type\":\"int\",\"displayName\":\"maxIdle\",\"by_default\":10},{\"name\":\"minidle\",\"type\":\"int\",\"displayName\":\"minIdle\",\"by_default\":0}]}");
+
+11 
+public
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+Schema
+ 
+g‘CÏssSchema
+(è{  
+	gSCHEMA$
+; }
+
+12 
+´iv©e
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+<
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+> 
+	gm¬ŸS”v”s
+;
+
+13 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	gdbÇme
+;
+
+14 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	gu£r
+;
+
+15 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	g·sswÜd
+;
+
+16 
+´iv©e
+ 
+	gmaxaùive
+;
+
+17 
+´iv©e
+ 
+	gmaxidË
+;
+
+18 
+´iv©e
+ 
+	gmšidË
+;
+
+25 
+public
+ 
+M¬ŸDbCÚfig
+() {}
+
+30 
+public
+ 
+M¬ŸDbCÚfig
+(
+java
+.
+ut
+.
+Li¡
+<
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+> 
+m¬ŸS”v”s
+, java.
+Ïng
+.
+SŒšg
+ 
+dbÇme
+, java.Ïng.SŒšg 
+u£r
+, java.Ïng.SŒšg 
+·sswÜd
+, java.Ïng.
+IÁeg”
+ 
+maxaùive
+, java.Ïng.IÁeg” 
+maxidË
+, java.Ïng.IÁeg” 
+mšidË
+) {
+
+31 
+	gthis
+.
+	gm¬ŸS”v”s
+ = 
+m¬ŸS”v”s
+;
+
+32 
+	gthis
+.
+	gdbÇme
+ = 
+dbÇme
+;
+
+33 
+	gthis
+.
+	gu£r
+ = 
+u£r
+;
+
+34 
+	gthis
+.
+	g·sswÜd
+ = 
+·sswÜd
+;
+
+35 
+	gthis
+.
+	gmaxaùive
+ = 
+maxaùive
+;
+
+36 
+	gthis
+.
+	gmaxidË
+ = 
+maxidË
+;
+
+37 
+	gthis
+.
+	gmšidË
+ = 
+mšidË
+;
+
+40 
+public
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+Schema
+ 
+g‘Schema
+(è{  
+	gSCHEMA$
+; }
+
+42 
+public
+ 
+	gjava
+.
+	gÏng
+.
+Objeù
+ 
+g‘
+(
+f›ld$
+) {
+
+43 
+	gf›ld$
+) {
+
+44 0:  
+m¬ŸS”v”s
+;
+
+45 1:  
+dbÇme
+;
+
+46 2:  
+u£r
+;
+
+47 3:  
+·sswÜd
+;
+
+48 4:  
+maxaùive
+;
+
+49 5:  
+maxidË
+;
+
+50 6:  
+mšidË
+;
+
+51 : 
+throw
+ 
+Ãw
+ 
+Üg
+.
+­ache
+.
+avro
+.
+AvroRuÁimeExû±iÚ
+("Bad index");
+
+55 @
+Suµ»ssW¬nšgs
+(
+v®ue
+="unchecked")
+
+56 
+public
+ 
+put
+(
+f›ld$
+, 
+java
+.
+Ïng
+.
+Objeù
+ 
+v®ue$
+) {
+
+57 
+	gf›ld$
+) {
+
+58 0: 
+m¬ŸS”v”s
+ = (
+java
+.
+ut
+.
+Li¡
+<
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+>)
+v®ue$
+; ;
+
+59 1: 
+dbÇme
+ = (
+java
+.
+Ïng
+.
+SŒšg
+)
+v®ue$
+; ;
+
+60 2: 
+u£r
+ = (
+java
+.
+Ïng
+.
+SŒšg
+)
+v®ue$
+; ;
+
+61 3: 
+·sswÜd
+ = (
+java
+.
+Ïng
+.
+SŒšg
+)
+v®ue$
+; ;
+
+62 4: 
+maxaùive
+ = (
+java
+.
+Ïng
+.
+IÁeg”
+)
+v®ue$
+; ;
+
+63 5: 
+maxidË
+ = (
+java
+.
+Ïng
+.
+IÁeg”
+)
+v®ue$
+; ;
+
+64 6: 
+mšidË
+ = (
+java
+.
+Ïng
+.
+IÁeg”
+)
+v®ue$
+; ;
+
+65 : 
+throw
+ 
+Ãw
+ 
+Üg
+.
+­ache
+.
+avro
+.
+AvroRuÁimeExû±iÚ
+("Bad index");
+
+72 
+public
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+<
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+> 
+g‘M¬ŸS”v”s
+() {
+
+73  
+	gm¬ŸS”v”s
+;
+
+80 
+public
+ 
+£tM¬ŸS”v”s
+(
+java
+.
+ut
+.
+Li¡
+<
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+> 
+v®ue
+) {
+
+81 
+	gthis
+.
+	gm¬ŸS”v”s
+ = 
+v®ue
+;
+
+87 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘DbÇme
+() {
+
+88  
+	gdbÇme
+;
+
+95 
+public
+ 
+£tDbÇme
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+96 
+	gthis
+.
+	gdbÇme
+ = 
+v®ue
+;
+
+102 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘U£r
+() {
+
+103  
+	gu£r
+;
+
+110 
+public
+ 
+£tU£r
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+111 
+	gthis
+.
+	gu£r
+ = 
+v®ue
+;
+
+117 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘PasswÜd
+() {
+
+118  
+	g·sswÜd
+;
+
+125 
+public
+ 
+£tPasswÜd
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+126 
+	gthis
+.
+	g·sswÜd
+ = 
+v®ue
+;
+
+132 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘Maxaùive
+() {
+
+133  
+	gmaxaùive
+;
+
+140 
+public
+ 
+£tMaxaùive
+(
+java
+.
+Ïng
+.
+IÁeg”
+ 
+v®ue
+) {
+
+141 
+	gthis
+.
+	gmaxaùive
+ = 
+v®ue
+;
+
+147 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘MaxidË
+() {
+
+148  
+	gmaxidË
+;
+
+155 
+public
+ 
+£tMaxidË
+(
+java
+.
+Ïng
+.
+IÁeg”
+ 
+v®ue
+) {
+
+156 
+	gthis
+.
+	gmaxidË
+ = 
+v®ue
+;
+
+162 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘MšidË
+() {
+
+163  
+	gmšidË
+;
+
+170 
+public
+ 
+£tMšidË
+(
+java
+.
+Ïng
+.
+IÁeg”
+ 
+v®ue
+) {
+
+171 
+	gthis
+.
+	gmšidË
+ = 
+v®ue
+;
+
+175 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ÃwBud”
+() {
+
+176  
+Ãw
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+();
+
+180 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ÃwBud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbCÚfig
+.Bud” 
+Ùh”
+) {
+
+181  
+Ãw
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+(
+Ùh”
+);
+
+185 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ÃwBud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbCÚfig
+ 
+Ùh”
+) {
+
+186  
+Ãw
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+(
+Ùh”
+);
+
+192 
+public
+ 
+şass
+ 
+Bud”
+ 
+ex‹nds
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	g¥ecific
+.
+	gS³cificRecÜdBud”Ba£
+<
+	gM¬ŸDbCÚfig
+>
+
+193 
+im¶em’ts
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	gd©a
+.
+	gRecÜdBud”
+<
+	gM¬ŸDbCÚfig
+> {
+
+195 
+´iv©e
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+<
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+> 
+	gm¬ŸS”v”s
+;
+
+196 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	gdbÇme
+;
+
+197 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	gu£r
+;
+
+198 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	g·sswÜd
+;
+
+199 
+´iv©e
+ 
+	gmaxaùive
+;
+
+200 
+´iv©e
+ 
+	gmaxidË
+;
+
+201 
+´iv©e
+ 
+	gmšidË
+;
+
+204 
+´iv©e
+ 
+Bud”
+() {
+
+205 
+su³r
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbCÚfig
+.
+SCHEMA$
+);
+
+209 
+´iv©e
+ 
+Bud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbCÚfig
+.Bud” 
+Ùh”
+) {
+
+210 
+su³r
+(
+Ùh”
+);
+
+211 ià(
+isV®idV®ue
+(
+f›lds
+()[0], 
+Ùh”
+.
+m¬ŸS”v”s
+)) {
+
+212 
+	gthis
+.
+	gm¬ŸS”v”s
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[0].
+schema
+(), 
+Ùh”
+.
+m¬ŸS”v”s
+);
+
+213 
+f›ldS‘FÏgs
+()[0] = 
+Œue
+;
+
+215 ià(
+isV®idV®ue
+(
+f›lds
+()[1], 
+Ùh”
+.
+dbÇme
+)) {
+
+216 
+	gthis
+.
+	gdbÇme
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[1].
+schema
+(), 
+Ùh”
+.
+dbÇme
+);
+
+217 
+f›ldS‘FÏgs
+()[1] = 
+Œue
+;
+
+219 ià(
+isV®idV®ue
+(
+f›lds
+()[2], 
+Ùh”
+.
+u£r
+)) {
+
+220 
+	gthis
+.
+	gu£r
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[2].
+schema
+(), 
+Ùh”
+.
+u£r
+);
+
+221 
+f›ldS‘FÏgs
+()[2] = 
+Œue
+;
+
+223 ià(
+isV®idV®ue
+(
+f›lds
+()[3], 
+Ùh”
+.
+·sswÜd
+)) {
+
+224 
+	gthis
+.
+	g·sswÜd
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[3].
+schema
+(), 
+Ùh”
+.
+·sswÜd
+);
+
+225 
+f›ldS‘FÏgs
+()[3] = 
+Œue
+;
+
+227 ià(
+isV®idV®ue
+(
+f›lds
+()[4], 
+Ùh”
+.
+maxaùive
+)) {
+
+228 
+	gthis
+.
+	gmaxaùive
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[4].
+schema
+(), 
+Ùh”
+.
+maxaùive
+);
+
+229 
+f›ldS‘FÏgs
+()[4] = 
+Œue
+;
+
+231 ià(
+isV®idV®ue
+(
+f›lds
+()[5], 
+Ùh”
+.
+maxidË
+)) {
+
+232 
+	gthis
+.
+	gmaxidË
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[5].
+schema
+(), 
+Ùh”
+.
+maxidË
+);
+
+233 
+f›ldS‘FÏgs
+()[5] = 
+Œue
+;
+
+235 ià(
+isV®idV®ue
+(
+f›lds
+()[6], 
+Ùh”
+.
+mšidË
+)) {
+
+236 
+	gthis
+.
+	gmšidË
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[6].
+schema
+(), 
+Ùh”
+.
+mšidË
+);
+
+237 
+f›ldS‘FÏgs
+()[6] = 
+Œue
+;
+
+242 
+´iv©e
+ 
+Bud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbCÚfig
+ 
+Ùh”
+) {
+
+243 
+su³r
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbCÚfig
+.
+SCHEMA$
+);
+
+244 ià(
+isV®idV®ue
+(
+f›lds
+()[0], 
+Ùh”
+.
+m¬ŸS”v”s
+)) {
+
+245 
+	gthis
+.
+	gm¬ŸS”v”s
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[0].
+schema
+(), 
+Ùh”
+.
+m¬ŸS”v”s
+);
+
+246 
+f›ldS‘FÏgs
+()[0] = 
+Œue
+;
+
+248 ià(
+isV®idV®ue
+(
+f›lds
+()[1], 
+Ùh”
+.
+dbÇme
+)) {
+
+249 
+	gthis
+.
+	gdbÇme
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[1].
+schema
+(), 
+Ùh”
+.
+dbÇme
+);
+
+250 
+f›ldS‘FÏgs
+()[1] = 
+Œue
+;
+
+252 ià(
+isV®idV®ue
+(
+f›lds
+()[2], 
+Ùh”
+.
+u£r
+)) {
+
+253 
+	gthis
+.
+	gu£r
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[2].
+schema
+(), 
+Ùh”
+.
+u£r
+);
+
+254 
+f›ldS‘FÏgs
+()[2] = 
+Œue
+;
+
+256 ià(
+isV®idV®ue
+(
+f›lds
+()[3], 
+Ùh”
+.
+·sswÜd
+)) {
+
+257 
+	gthis
+.
+	g·sswÜd
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[3].
+schema
+(), 
+Ùh”
+.
+·sswÜd
+);
+
+258 
+f›ldS‘FÏgs
+()[3] = 
+Œue
+;
+
+260 ià(
+isV®idV®ue
+(
+f›lds
+()[4], 
+Ùh”
+.
+maxaùive
+)) {
+
+261 
+	gthis
+.
+	gmaxaùive
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[4].
+schema
+(), 
+Ùh”
+.
+maxaùive
+);
+
+262 
+f›ldS‘FÏgs
+()[4] = 
+Œue
+;
+
+264 ià(
+isV®idV®ue
+(
+f›lds
+()[5], 
+Ùh”
+.
+maxidË
+)) {
+
+265 
+	gthis
+.
+	gmaxidË
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[5].
+schema
+(), 
+Ùh”
+.
+maxidË
+);
+
+266 
+f›ldS‘FÏgs
+()[5] = 
+Œue
+;
+
+268 ià(
+isV®idV®ue
+(
+f›lds
+()[6], 
+Ùh”
+.
+mšidË
+)) {
+
+269 
+	gthis
+.
+	gmšidË
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[6].
+schema
+(), 
+Ùh”
+.
+mšidË
+);
+
+270 
+f›ldS‘FÏgs
+()[6] = 
+Œue
+;
+
+275 
+public
+ 
+	gjava
+.
+	gut
+.
+	gLi¡
+<
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+> 
+g‘M¬ŸS”v”s
+() {
+
+276  
+	gm¬ŸS”v”s
+;
+
+280 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tM¬ŸS”v”s
+(
+java
+.
+ut
+.
+Li¡
+<
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+> 
+v®ue
+) {
+
+281 
+v®id©e
+(
+f›lds
+()[0], 
+v®ue
+);
+
+282 
+	gthis
+.
+	gm¬ŸS”v”s
+ = 
+v®ue
+;
+
+283 
+f›ldS‘FÏgs
+()[0] = 
+Œue
+;
+
+284  
+	gthis
+;
+
+288 
+public
+ 
+boŞ—n
+ 
+hasM¬ŸS”v”s
+() {
+
+289  
+f›ldS‘FÏgs
+()[0];
+
+293 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rM¬ŸS”v”s
+() {
+
+294 
+	gm¬ŸS”v”s
+ = 
+nuÎ
+;
+
+295 
+f›ldS‘FÏgs
+()[0] = 
+çl£
+;
+
+296  
+	gthis
+;
+
+300 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘DbÇme
+() {
+
+301  
+	gdbÇme
+;
+
+305 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tDbÇme
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+306 
+v®id©e
+(
+f›lds
+()[1], 
+v®ue
+);
+
+307 
+	gthis
+.
+	gdbÇme
+ = 
+v®ue
+;
+
+308 
+f›ldS‘FÏgs
+()[1] = 
+Œue
+;
+
+309  
+	gthis
+;
+
+313 
+public
+ 
+boŞ—n
+ 
+hasDbÇme
+() {
+
+314  
+f›ldS‘FÏgs
+()[1];
+
+318 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rDbÇme
+() {
+
+319 
+	gdbÇme
+ = 
+nuÎ
+;
+
+320 
+f›ldS‘FÏgs
+()[1] = 
+çl£
+;
+
+321  
+	gthis
+;
+
+325 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘U£r
+() {
+
+326  
+	gu£r
+;
+
+330 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tU£r
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+331 
+v®id©e
+(
+f›lds
+()[2], 
+v®ue
+);
+
+332 
+	gthis
+.
+	gu£r
+ = 
+v®ue
+;
+
+333 
+f›ldS‘FÏgs
+()[2] = 
+Œue
+;
+
+334  
+	gthis
+;
+
+338 
+public
+ 
+boŞ—n
+ 
+hasU£r
+() {
+
+339  
+f›ldS‘FÏgs
+()[2];
+
+343 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rU£r
+() {
+
+344 
+	gu£r
+ = 
+nuÎ
+;
+
+345 
+f›ldS‘FÏgs
+()[2] = 
+çl£
+;
+
+346  
+	gthis
+;
+
+350 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘PasswÜd
+() {
+
+351  
+	g·sswÜd
+;
+
+355 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tPasswÜd
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+356 
+v®id©e
+(
+f›lds
+()[3], 
+v®ue
+);
+
+357 
+	gthis
+.
+	g·sswÜd
+ = 
+v®ue
+;
+
+358 
+f›ldS‘FÏgs
+()[3] = 
+Œue
+;
+
+359  
+	gthis
+;
+
+363 
+public
+ 
+boŞ—n
+ 
+hasPasswÜd
+() {
+
+364  
+f›ldS‘FÏgs
+()[3];
+
+368 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rPasswÜd
+() {
+
+369 
+	g·sswÜd
+ = 
+nuÎ
+;
+
+370 
+f›ldS‘FÏgs
+()[3] = 
+çl£
+;
+
+371  
+	gthis
+;
+
+375 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘Maxaùive
+() {
+
+376  
+	gmaxaùive
+;
+
+380 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tMaxaùive
+(
+v®ue
+) {
+
+381 
+v®id©e
+(
+f›lds
+()[4], 
+v®ue
+);
+
+382 
+	gthis
+.
+	gmaxaùive
+ = 
+v®ue
+;
+
+383 
+f›ldS‘FÏgs
+()[4] = 
+Œue
+;
+
+384  
+	gthis
+;
+
+388 
+public
+ 
+boŞ—n
+ 
+hasMaxaùive
+() {
+
+389  
+f›ldS‘FÏgs
+()[4];
+
+393 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rMaxaùive
+() {
+
+394 
+f›ldS‘FÏgs
+()[4] = 
+çl£
+;
+
+395  
+	gthis
+;
+
+399 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘MaxidË
+() {
+
+400  
+	gmaxidË
+;
+
+404 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tMaxidË
+(
+v®ue
+) {
+
+405 
+v®id©e
+(
+f›lds
+()[5], 
+v®ue
+);
+
+406 
+	gthis
+.
+	gmaxidË
+ = 
+v®ue
+;
+
+407 
+f›ldS‘FÏgs
+()[5] = 
+Œue
+;
+
+408  
+	gthis
+;
+
+412 
+public
+ 
+boŞ—n
+ 
+hasMaxidË
+() {
+
+413  
+f›ldS‘FÏgs
+()[5];
+
+417 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rMaxidË
+() {
+
+418 
+f›ldS‘FÏgs
+()[5] = 
+çl£
+;
+
+419  
+	gthis
+;
+
+423 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘MšidË
+() {
+
+424  
+	gmšidË
+;
+
+428 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+£tMšidË
+(
+v®ue
+) {
+
+429 
+v®id©e
+(
+f›lds
+()[6], 
+v®ue
+);
+
+430 
+	gthis
+.
+	gmšidË
+ = 
+v®ue
+;
+
+431 
+f›ldS‘FÏgs
+()[6] = 
+Œue
+;
+
+432  
+	gthis
+;
+
+436 
+public
+ 
+boŞ—n
+ 
+hasMšidË
+() {
+
+437  
+f›ldS‘FÏgs
+()[6];
+
+441 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbCÚfig
+.
+Bud”
+ 
+ş—rMšidË
+() {
+
+442 
+f›ldS‘FÏgs
+()[6] = 
+çl£
+;
+
+443  
+	gthis
+;
+
+446 @
+Ov”ride
+
+
+447 
+public
+ 
+M¬ŸDbCÚfig
+ 
+bud
+() {
+
+448 
+	gŒy
+ {
+
+449 
+M¬ŸDbCÚfig
+ 
+	g»cÜd
+ = 
+Ãw
+ MariaDbConfig();
+
+450 
+	g»cÜd
+.
+	gm¬ŸS”v”s
+ = 
+f›ldS‘FÏgs
+()[0] ? 
+this
+.
+m¬ŸS”v”s
+ : (
+java
+.
+ut
+.
+Li¡
+<
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+>è
+deçuÉV®ue
+(
+f›lds
+()[0]);
+
+451 
+	g»cÜd
+.
+	gdbÇme
+ = 
+f›ldS‘FÏgs
+()[1] ? 
+this
+.
+dbÇme
+ : (
+java
+.
+Ïng
+.
+SŒšg
+è
+deçuÉV®ue
+(
+f›lds
+()[1]);
+
+452 
+	g»cÜd
+.
+	gu£r
+ = 
+f›ldS‘FÏgs
+()[2] ? 
+this
+.
+u£r
+ : (
+java
+.
+Ïng
+.
+SŒšg
+è
+deçuÉV®ue
+(
+f›lds
+()[2]);
+
+453 
+	g»cÜd
+.
+	g·sswÜd
+ = 
+f›ldS‘FÏgs
+()[3] ? 
+this
+.
+·sswÜd
+ : (
+java
+.
+Ïng
+.
+SŒšg
+è
+deçuÉV®ue
+(
+f›lds
+()[3]);
+
+454 
+	g»cÜd
+.
+	gmaxaùive
+ = 
+f›ldS‘FÏgs
+()[4] ? 
+this
+.
+maxaùive
+ : (
+java
+.
+Ïng
+.
+IÁeg”
+è
+deçuÉV®ue
+(
+f›lds
+()[4]);
+
+455 
+	g»cÜd
+.
+	gmaxidË
+ = 
+f›ldS‘FÏgs
+()[5] ? 
+this
+.
+maxidË
+ : (
+java
+.
+Ïng
+.
+IÁeg”
+è
+deçuÉV®ue
+(
+f›lds
+()[5]);
+
+456 
+	g»cÜd
+.
+	gmšidË
+ = 
+f›ldS‘FÏgs
+()[6] ? 
+this
+.
+mšidË
+ : (
+java
+.
+Ïng
+.
+IÁeg”
+è
+deçuÉV®ue
+(
+f›lds
+()[6]);
+
+457  
+	g»cÜd
+;
+
+458 } 
+ÿtch
+ (
+Exû±iÚ
+ 
+e
+) {
+
+459 
+throw
+ 
+Ãw
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+AvroRuÁimeExû±iÚ
+(
+e
+);
+
+	@/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/gen/MariaDbServer.java
+
+6 
+·ckage
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+;
+
+7 @
+Suµ»ssW¬nšgs
+("all")
+
+8 @
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	g¥ecific
+.
+AvroG’”©ed
+
+
+9 
+public
+ 
+şass
+ 
+M¬ŸDbS”v”
+ 
+ex‹nds
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	g¥ecific
+.
+S³cificRecÜdBa£
+ 
+im¶em’ts
+ org.­ache.avro.¥ecific.
+	gS³cificRecÜd
+ {
+
+10 
+public
+ 
+fš®
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+Schema
+ 
+	gSCHEMA$
+ = 
+Ãw
+ 
+Üg
+.
+­ache
+.
+avro
+.Schema.
+P¬£r
+().
+·r£
+("{\"type\":\"record\",\"name\":\"MariaDbServer\",\"namespace\":\"org.kaaproject.kaa.server.appenders.maria.config.gen\",\"fields\":[{\"name\":\"host\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"},\"displayName\":\"Host\",\"by_default\":\"localhost\",\"weight\":0.75},{\"name\":\"port\",\"type\":\"int\",\"displayName\":\"Port\",\"by_default\":3306,\"weight\":0.25}]}");
+
+11 
+public
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+Schema
+ 
+g‘CÏssSchema
+(è{  
+	gSCHEMA$
+; }
+
+12 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	gho¡
+;
+
+13 
+´iv©e
+ 
+	gpÜt
+;
+
+20 
+public
+ 
+M¬ŸDbS”v”
+() {}
+
+25 
+public
+ 
+M¬ŸDbS”v”
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+ho¡
+, java.Ïng.
+IÁeg”
+ 
+pÜt
+) {
+
+26 
+	gthis
+.
+	gho¡
+ = 
+ho¡
+;
+
+27 
+	gthis
+.
+	gpÜt
+ = 
+pÜt
+;
+
+30 
+public
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+Schema
+ 
+g‘Schema
+(è{  
+	gSCHEMA$
+; }
+
+32 
+public
+ 
+	gjava
+.
+	gÏng
+.
+Objeù
+ 
+g‘
+(
+f›ld$
+) {
+
+33 
+	gf›ld$
+) {
+
+34 0:  
+ho¡
+;
+
+35 1:  
+pÜt
+;
+
+36 : 
+throw
+ 
+Ãw
+ 
+Üg
+.
+­ache
+.
+avro
+.
+AvroRuÁimeExû±iÚ
+("Bad index");
+
+40 @
+Suµ»ssW¬nšgs
+(
+v®ue
+="unchecked")
+
+41 
+public
+ 
+put
+(
+f›ld$
+, 
+java
+.
+Ïng
+.
+Objeù
+ 
+v®ue$
+) {
+
+42 
+	gf›ld$
+) {
+
+43 0: 
+ho¡
+ = (
+java
+.
+Ïng
+.
+SŒšg
+)
+v®ue$
+; ;
+
+44 1: 
+pÜt
+ = (
+java
+.
+Ïng
+.
+IÁeg”
+)
+v®ue$
+; ;
+
+45 : 
+throw
+ 
+Ãw
+ 
+Üg
+.
+­ache
+.
+avro
+.
+AvroRuÁimeExû±iÚ
+("Bad index");
+
+52 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘Ho¡
+() {
+
+53  
+	gho¡
+;
+
+60 
+public
+ 
+£tHo¡
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+61 
+	gthis
+.
+	gho¡
+ = 
+v®ue
+;
+
+67 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘PÜt
+() {
+
+68  
+	gpÜt
+;
+
+75 
+public
+ 
+£tPÜt
+(
+java
+.
+Ïng
+.
+IÁeg”
+ 
+v®ue
+) {
+
+76 
+	gthis
+.
+	gpÜt
+ = 
+v®ue
+;
+
+80 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+ÃwBud”
+() {
+
+81  
+Ãw
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+();
+
+85 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+ÃwBud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+.Bud” 
+Ùh”
+) {
+
+86  
+Ãw
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+(
+Ùh”
+);
+
+90 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+ÃwBud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+ 
+Ùh”
+) {
+
+91  
+Ãw
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+(
+Ùh”
+);
+
+97 
+public
+ 
+şass
+ 
+Bud”
+ 
+ex‹nds
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	g¥ecific
+.
+	gS³cificRecÜdBud”Ba£
+<
+	gM¬ŸDbS”v”
+>
+
+98 
+im¶em’ts
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+	gd©a
+.
+	gRecÜdBud”
+<
+	gM¬ŸDbS”v”
+> {
+
+100 
+´iv©e
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+	gho¡
+;
+
+101 
+´iv©e
+ 
+	gpÜt
+;
+
+104 
+´iv©e
+ 
+Bud”
+() {
+
+105 
+su³r
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+.
+SCHEMA$
+);
+
+109 
+´iv©e
+ 
+Bud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+.Bud” 
+Ùh”
+) {
+
+110 
+su³r
+(
+Ùh”
+);
+
+111 ià(
+isV®idV®ue
+(
+f›lds
+()[0], 
+Ùh”
+.
+ho¡
+)) {
+
+112 
+	gthis
+.
+	gho¡
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[0].
+schema
+(), 
+Ùh”
+.
+ho¡
+);
+
+113 
+f›ldS‘FÏgs
+()[0] = 
+Œue
+;
+
+115 ià(
+isV®idV®ue
+(
+f›lds
+()[1], 
+Ùh”
+.
+pÜt
+)) {
+
+116 
+	gthis
+.
+	gpÜt
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[1].
+schema
+(), 
+Ùh”
+.
+pÜt
+);
+
+117 
+f›ldS‘FÏgs
+()[1] = 
+Œue
+;
+
+122 
+´iv©e
+ 
+Bud”
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+ 
+Ùh”
+) {
+
+123 
+su³r
+(
+Üg
+.
+k¯´ojeù
+.
+k¯
+.
+£rv”
+.
+­³nd”s
+.
+m¬Ÿ
+.
+cÚfig
+.
+g’
+.
+M¬ŸDbS”v”
+.
+SCHEMA$
+);
+
+124 ià(
+isV®idV®ue
+(
+f›lds
+()[0], 
+Ùh”
+.
+ho¡
+)) {
+
+125 
+	gthis
+.
+	gho¡
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[0].
+schema
+(), 
+Ùh”
+.
+ho¡
+);
+
+126 
+f›ldS‘FÏgs
+()[0] = 
+Œue
+;
+
+128 ià(
+isV®idV®ue
+(
+f›lds
+()[1], 
+Ùh”
+.
+pÜt
+)) {
+
+129 
+	gthis
+.
+	gpÜt
+ = 
+d©a
+().
+d“pCİy
+(
+f›lds
+()[1].
+schema
+(), 
+Ùh”
+.
+pÜt
+);
+
+130 
+f›ldS‘FÏgs
+()[1] = 
+Œue
+;
+
+135 
+public
+ 
+	gjava
+.
+	gÏng
+.
+SŒšg
+ 
+g‘Ho¡
+() {
+
+136  
+	gho¡
+;
+
+140 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+£tHo¡
+(
+java
+.
+Ïng
+.
+SŒšg
+ 
+v®ue
+) {
+
+141 
+v®id©e
+(
+f›lds
+()[0], 
+v®ue
+);
+
+142 
+	gthis
+.
+	gho¡
+ = 
+v®ue
+;
+
+143 
+f›ldS‘FÏgs
+()[0] = 
+Œue
+;
+
+144  
+	gthis
+;
+
+148 
+public
+ 
+boŞ—n
+ 
+hasHo¡
+() {
+
+149  
+f›ldS‘FÏgs
+()[0];
+
+153 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+ş—rHo¡
+() {
+
+154 
+	gho¡
+ = 
+nuÎ
+;
+
+155 
+f›ldS‘FÏgs
+()[0] = 
+çl£
+;
+
+156  
+	gthis
+;
+
+160 
+public
+ 
+	gjava
+.
+	gÏng
+.
+IÁeg”
+ 
+g‘PÜt
+() {
+
+161  
+	gpÜt
+;
+
+165 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+£tPÜt
+(
+v®ue
+) {
+
+166 
+v®id©e
+(
+f›lds
+()[1], 
+v®ue
+);
+
+167 
+	gthis
+.
+	gpÜt
+ = 
+v®ue
+;
+
+168 
+f›ldS‘FÏgs
+()[1] = 
+Œue
+;
+
+169  
+	gthis
+;
+
+173 
+public
+ 
+boŞ—n
+ 
+hasPÜt
+() {
+
+174  
+f›ldS‘FÏgs
+()[1];
+
+178 
+public
+ 
+	gÜg
+.
+	gk¯´ojeù
+.
+	gk¯
+.
+	g£rv”
+.
+	g­³nd”s
+.
+	gm¬Ÿ
+.
+	gcÚfig
+.
+	gg’
+.
+	gM¬ŸDbS”v”
+.
+Bud”
+ 
+ş—rPÜt
+() {
+
+179 
+f›ldS‘FÏgs
+()[1] = 
+çl£
+;
+
+180  
+	gthis
+;
+
+183 @
+Ov”ride
+
+
+184 
+public
+ 
+M¬ŸDbS”v”
+ 
+bud
+() {
+
+185 
+	gŒy
+ {
+
+186 
+M¬ŸDbS”v”
+ 
+	g»cÜd
+ = 
+Ãw
+ MariaDbServer();
+
+187 
+	g»cÜd
+.
+	gho¡
+ = 
+f›ldS‘FÏgs
+()[0] ? 
+this
+.
+ho¡
+ : (
+java
+.
+Ïng
+.
+SŒšg
+è
+deçuÉV®ue
+(
+f›lds
+()[0]);
+
+188 
+	g»cÜd
+.
+	gpÜt
+ = 
+f›ldS‘FÏgs
+()[1] ? 
+this
+.
+pÜt
+ : (
+java
+.
+Ïng
+.
+IÁeg”
+è
+deçuÉV®ue
+(
+f›lds
+()[1]);
+
+189  
+	g»cÜd
+;
+
+190 } 
+ÿtch
+ (
+Exû±iÚ
+ 
+e
+) {
+
+191 
+throw
+ 
+Ãw
+ 
+	gÜg
+.
+	g­ache
+.
+	gavro
+.
+AvroRuÁimeExû±iÚ
+(
+e
+);
+
+	@
+1
+.
+1
+/usr/include
+9
+1252
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/avro/mariadb-appender-config.avsc
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/ConnectionManager.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEvent.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEventDao.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEventMariaDao.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/MariaDbLogAppender.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/MariaDbAppenderConfig.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/gen/MariaDbConfig.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/gen/MariaDbServer.java

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.kaaproject.kaa.server.common.CassandraTestSuite" time="16.833" tests="222" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\repos\kaa-iot"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\repos\kaa-iot"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hjlee\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Wizvera\Delfino;C:\Program Files (x86)\Common Files\NetSarang;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\apache-maven-3.0.5\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;C:\Ruby26-x64\bin;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;d:\php;C:\Program Files\CMake\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\dotnet\;C:\Users\hjlee\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Users\hjlee\.windows-build-tools\python27\Scripts;C:\Users\hjlee\.windows-build-tools\python27;C:\ffmpeg\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\gwt-2.8.2;C:\apache-ant-1.10.7\bin;C:\Users\hjlee\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\GNU Tools ARM Embedded\6 2017-q2-update\bin;C:\Users\hjlee\.windows-build-tools\python27\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\hjlee\.dotnet\tools;C:\Program Files\dotnet;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\bin;;C:\Program Files\Docker Toolbox;C:\Users\hjlee\.windows-build-tools\python27\Scripts;C:\ffmpeg\bin;C:\gwt-2.8.2;C:\apache-ant-1.10.7\bin;C:\Users\hjlee\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\hjlee"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="MS949"/>
+    <property name="user.name" value="hjlee"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -f d:\repos\kaa-iot\server\pom.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms949"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms949"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testFindAppsByTenantId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.301"/>
+  <testcase name="testRemoveAppsByTenantId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.791"/>
+  <testcase name="findAppByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.098"/>
+  <testcase name="removeAppByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.052"/>
+  <testcase name="saveAppTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.045"/>
+  <testcase name="findAppsByTenantIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.042"/>
+  <testcase name="findAppByApplicationTokenTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraApplicationServiceImplTest" time="0.047"/>
+  <testcase name="validateConfigurationWithoutGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.021"/>
+  <testcase name="deactivateInactiveConfigurationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.128"/>
+  <testcase name="findConfigurationByIdTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.007"/>
+  <testcase name="findLatestConfigurationByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.084"/>
+  <testcase name="findConfSchemaByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.081"/>
+  <testcase name="findConfSchemaByIdTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.004"/>
+  <testcase name="saveConfigurationWithIncorrectIdTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.005"/>
+  <testcase name="saveConfigurationObjectWithoutIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.082"/>
+  <testcase name="findVacantSchemasByEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.177"/>
+  <testcase name="createApplicationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.049"/>
+  <testcase name="findAllConfigurationRecordsByEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.096"/>
+  <testcase name="saveConfigurationObjectWithoutInactiveConfigurationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.107"/>
+  <testcase name="deleteConfigurationRecordTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.128"/>
+  <testcase name="deactivateConfigurationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.07"/>
+  <testcase name="findConfigurationRecordBySchemaIdAndEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.078"/>
+  <testcase name="saveConfSchemaTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.069"/>
+  <testcase name="findConfSchemaByAppIdAndVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.033"/>
+  <testcase name="findConfigurationsByEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.083"/>
+  <testcase name="activateConfigurationTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.064"/>
+  <testcase name="createDefaultSchemaTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.056"/>
+  <testcase name="validateConfigurationWithoutSchemaIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.004"/>
+  <testcase name="saveConfigurationObjectWithIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.069"/>
+  <testcase name="findConfigurationSchemaVersionsByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.052"/>
+  <testcase name="saveConfigurationWithIncorrectStatusTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.06"/>
+  <testcase name="removeConfSchemasByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.03"/>
+  <testcase name="editConfigurationObjectTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.045"/>
+  <testcase name="findLatestConfigurationByAppIdTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.003"/>
+  <testcase name="findConfigurationByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.044"/>
+  <testcase name="deactivateIncorrectConfigurationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.002"/>
+  <testcase name="activateConfiguration" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.047"/>
+  <testcase name="createSchemaTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.006"/>
+  <testcase name="saveConfigurationObjectWithIncorrectSchemaIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.047"/>
+  <testcase name="findConfigurationByEndpointGroupIdAndVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.071"/>
+  <testcase name="findDefaultConfigurationBySchemaIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.037"/>
+  <testcase name="activateConfigurationWithIncorrectIdTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraConfigurationServiceImplTest" time="0.002"/>
+  <testcase name="testFlatExport" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.157"/>
+  <testcase name="testRemoveCTLSchemaByFqnAndVerAndTenantIdAndApplicationId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.09"/>
+  <testcase name="testShallowExport" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.095"/>
+  <testcase name="testFindLatestCTLSchemaByFqn" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.094"/>
+  <testcase name="testFindCTLSchemaDependentsByFqnVersionTenantId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.099"/>
+  <testcase name="testFindSystemCTLSchemas" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.094"/>
+  <testcase name="testScopeUpdateForbidden" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.099"/>
+  <testcase name="multiThreadCTLSchemaSaveTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.341"/>
+  <testcase name="testRemoveCTLSchemaByFqnAndVerAndWithoutTenantId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.088"/>
+  <testcase name="testFindSiblingsFqns" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.089"/>
+  <testcase name="testFindSystemCTLSchemasMetaInfo" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.1"/>
+  <testcase name="testScopeUpdate" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.108"/>
+  <testcase name="testFindCTLSchemaByFqnAndVerAndTenantIdAndApplicationId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.094"/>
+  <testcase name="testFindCTLSchemaById" classname="org.kaaproject.kaa.server.common.dao.service.CassandraCtlSchemaServiceImplTest" time="0.092"/>
+  <testcase name="findEndpointProfileByEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.614"/>
+  <testcase name="findEndpointGroupsByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.016"/>
+  <testcase name="findEndpointProfileByKeyHashTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.045"/>
+  <testcase name="removeEndpointGroupByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0"/>
+  <testcase name="saveEndpointGroupWithExistingNameTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.02"/>
+  <testcase name="findTopicListEntryByHashTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.037"/>
+  <testcase name="findEndpointProfileBodyByKeyHashTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.045"/>
+  <testcase name="generateEndpointUserAccessTokenTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.039"/>
+  <testcase name="saveEndpointUserTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.028"/>
+  <testcase name="saveEndpointGroupWithSameNameTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.02"/>
+  <testcase name="attachEndpointToUserTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.213"/>
+  <testcase name="createDuplicateProfileTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.054"/>
+  <testcase name="invalidUpdateEndpointGroupTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.017"/>
+  <testcase name="findEndpointGroupByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.019"/>
+  <testcase name="removeEndpointGroupByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.015"/>
+  <testcase name="removeEndpointUserByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.032"/>
+  <testcase name="findEndpointProfileBodyByEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.062"/>
+  <testcase name="saveEndpointGroupWithSameWeightTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.017"/>
+  <testcase name="saveEndpointGroupWithExistingWeightTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.013"/>
+  <testcase name="findEndpointProfilesByExternalUserIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.272"/>
+  <testcase name="findEndpointUserByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.02"/>
+  <testcase name="multiThreadAttachDetachEndpointToUserTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="2.416"/>
+  <testcase name="findAllEndpointUsersTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraEndpointServiceImplTest" time="0.048"/>
+  <testcase name="findHistoriesByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraHistoryServiceImplTest" time="0.034"/>
+  <testcase name="findHistoriesBySeqNumberStartTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraHistoryServiceImplTest" time="0.032"/>
+  <testcase name="findHistoryBySeqNumberTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraHistoryServiceImplTest" time="0.027"/>
+  <testcase name="findHistoriesBySeqNumberRangeTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraHistoryServiceImplTest" time="0.029"/>
+  <testcase name="findAllAppendersByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogAppenderServiceImplTest" time="0.069"/>
+  <testcase name="removeLogAppenderByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogAppenderServiceImplTest" time="0.027"/>
+  <testcase name="findLogAppenderByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogAppenderServiceImplTest" time="0.03"/>
+  <testcase name="removeLogSchemasByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogSchemaServiceImplTest" time="0.036"/>
+  <testcase name="findLogSchemaByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogSchemaServiceImplTest" time="0.022"/>
+  <testcase name="removeLogSchemaByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogSchemaServiceImplTest" time="0.023"/>
+  <testcase name="findLogSchemaVersionsByApplicationIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraLogSchemaServiceImplTest" time="0.021"/>
+  <testcase name="updateExistingProfileSchemaTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.028"/>
+  <testcase name="findProfileSchemasByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.02"/>
+  <testcase name="findProfileSchemaByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.021"/>
+  <testcase name="saveProfileSchemaTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.026"/>
+  <testcase name="updateExistingProfileSchemaWithIncorrectIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.021"/>
+  <testcase name="saveFilterObjectWithIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.039"/>
+  <testcase name="removeProfileSchemasByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.023"/>
+  <testcase name="saveFilterWithIncorrectStatusTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.031"/>
+  <testcase name="findProfileFilterByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.037"/>
+  <testcase name="saveProfileFilterWithIncorrectSchemaIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.019"/>
+  <testcase name="saveFilterObjectWithIncorrectSchemaIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.035"/>
+  <testcase name="findProfileFilterByAppIdAndVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.037"/>
+  <testcase name="updateDefaultProfileFilter" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.025"/>
+  <testcase name="validateFilterNullDtoTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.001"/>
+  <testcase name="invalidProfileFilterDeactivationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.006"/>
+  <testcase name="validateFilterBlankEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.002"/>
+  <testcase name="saveProfileFilterWithIncorrectGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.025"/>
+  <testcase name="saveFilterObjectWithoutInactiveFilterTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.048"/>
+  <testcase name="saveFiltersWithDiferentGroupsTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.05"/>
+  <testcase name="findProfileSchemaVersionsByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.019"/>
+  <testcase name="removeProfileSchemaByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.025"/>
+  <testcase name="activateProfileFilterTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.034"/>
+  <testcase name="saveFilterObjectWithoutIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.031"/>
+  <testcase name="findAllProfileFilterRecordsByEndpointGroupIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.049"/>
+  <testcase name="findProfileSchemaByAppIdAndVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.023"/>
+  <testcase name="validateFilterBlankSchemaIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.003"/>
+  <testcase name="saveFilterWithIncorrectIdTestFail" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.002"/>
+  <testcase name="deactivateProfileFilterTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.039"/>
+  <testcase name="activateProfileFilterActiveStatusTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.03"/>
+  <testcase name="invalidProfileFilterActivationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.003"/>
+  <testcase name="activateProfileFilterNoProfileFilterTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.002"/>
+  <testcase name="findProfileSchemaByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.017"/>
+  <testcase name="saveMoreFiltersTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraProfileServiceImplTest" time="0.076"/>
+  <testcase name="testSaveServerProfileSchema" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.02"/>
+  <testcase name="testFindServerProfileSchema" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.036"/>
+  <testcase name="testFindLatestServerProfileSchema" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.028"/>
+  <testcase name="testSaveServerProfile" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.175"/>
+  <testcase name="testFindServerProfileSchemasByAppId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.084"/>
+  <testcase name="testRemoveServerProfileSchemaById" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.016"/>
+  <testcase name="testRemoveServerProfileSchemaByAppId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0.09"/>
+  <testcase name="testFindServerProfileSchemaByKeyHash" classname="org.kaaproject.kaa.server.common.dao.service.CassandraServerProfileServiceImplTest" time="0">
+    <skipped message="generateEndpointProfileDtoWithSchemaVersion() updates profile, but it shouldn&apos;t have existed by the moment, so save must have have been invoked"/>
+  </testcase>
+  <testcase name="findTopicsByAppIdAndTypeTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.03"/>
+  <testcase name="saveTopicTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.019"/>
+  <testcase name="findTopicsByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.017"/>
+  <testcase name="removeTopicsByAppIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.017"/>
+  <testcase name="removeTopicByIdAddedToGroupTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.16"/>
+  <testcase name="findTopicByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.019"/>
+  <testcase name="testFindTopicsByEndpointGroupId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.018"/>
+  <testcase name="removeTopicByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.027"/>
+  <testcase name="testFindVacantTopicsByEndpointGroupId" classname="org.kaaproject.kaa.server.common.dao.service.CassandraTopicServiceImplTest" time="0.02"/>
+  <testcase name="findUserConfigurationByExternalUIdAndAppTokenAndSchemaVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.186"/>
+  <testcase name="saveUserConfigBlankTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.04"/>
+  <testcase name="userConfigNullTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.001"/>
+  <testcase name="findUserConfigurationByUserIdAndAppTokenAndSchemaVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.113"/>
+  <testcase name="userConfigNotNullTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.054"/>
+  <testcase name="findUserConfigurationByUserIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.11"/>
+  <testcase name="saveUserConfigurationTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.045"/>
+  <testcase name="removeByUserIdAndAppTokenAndSchemaVersionTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.09"/>
+  <testcase name="appDtoNullTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.019"/>
+  <testcase name="findUserConfigurationByExternalUIdAndAppTokenAndSchemaVersionNullTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserConfigurationServiceImplTest" time="0.056"/>
+  <testcase name="findUserByExternalUidTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.006"/>
+  <testcase name="removeTenantAdminByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.004"/>
+  <testcase name="removeUserByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.003"/>
+  <testcase name="removeTenantByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.002"/>
+  <testcase name="findTenantByNameTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.003"/>
+  <testcase name="findTenantAdminByIdTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.003"/>
+  <testcase name="saveUserTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.002"/>
+  <testcase name="findAllTenantUsersTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.005"/>
+  <testcase name="saveTenantTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.002"/>
+  <testcase name="findAllUsersTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.006"/>
+  <testcase name="findAllTenantsTest" classname="org.kaaproject.kaa.server.common.dao.service.CassandraUserServiceImplTest" time="0.003"/>
+  <testcase name="testRemoveAllCredentials" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.CredentialsCassandraDaoTest" time="0.93"/>
+  <testcase name="testRemoveCredentials" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.CredentialsCassandraDaoTest" time="0.009"/>
+  <testcase name="testUpdateStatus" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.CredentialsCassandraDaoTest" time="0.009"/>
+  <testcase name="testFindCredentialsById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.CredentialsCassandraDaoTest" time="0.006"/>
+  <testcase name="testFindByIdNullKey" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointConfigurationCassandraDaoTest" time="0"/>
+  <testcase name="testFindByHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointConfigurationCassandraDaoTest" time="0.171"/>
+  <testcase name="testRemoveByHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointConfigurationCassandraDaoTest" time="0.018"/>
+  <testcase name="testFindById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointConfigurationCassandraDaoTest" time="0.016"/>
+  <testcase name="testRemoveById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointConfigurationCassandraDaoTest" time="0.017"/>
+  <testcase name="testRemoveByIdNullKey" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointConfigurationCassandraDaoTest" time="0.013"/>
+  <testcase name="testRemoveNotificationsByAppId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0.159"/>
+  <testcase name="testSave" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0.024"/>
+  <testcase name="testBytesToStringConversation" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0"/>
+  <testcase name="testFindNotificationsByKeyHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0.047"/>
+  <testcase name="testFindById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0.026"/>
+  <testcase name="testDtoConversation" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0.02"/>
+  <testcase name="testRemoveNotificationsByKeyHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointNotificationCassandraDaoTest" time="0.013"/>
+  <testcase name="testRemoveByKeyHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.109"/>
+  <testcase name="testFindByIdNullKey" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.016"/>
+  <testcase name="testFindByKeyHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.02"/>
+  <testcase name="testFindEndpointIdByKeyHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.021"/>
+  <testcase name="testSave" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.021"/>
+  <testcase name="testFindBodyByEndpointGroupIdWithNfGroupState" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.111"/>
+  <testcase name="testOptimisticLockWithConcurrency" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.148"/>
+  <testcase name="testFindBodyByKeyHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.078"/>
+  <testcase name="testFindByEndpointGroupIdWithNfGroupState" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.022"/>
+  <testcase name="testFindById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.013"/>
+  <testcase name="testCheckSdkToken" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.02"/>
+  <testcase name="testRemoveById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.029"/>
+  <testcase name="testRemoveByIdNullKey" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.02"/>
+  <testcase name="testFindByAccessToken" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.025"/>
+  <testcase name="testFindByEndpointUserId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.035"/>
+  <testcase name="testFindBodyByEndpointGroupId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.105"/>
+  <testcase name="testUpdate" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.057"/>
+  <testcase name="testFindByEndpointGroupId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointProfileCassandraDaoTest" time="0.101"/>
+  <testcase name="testRemoveByEndpointId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointRegistrationCassandraDaoTest" time="0.086"/>
+  <testcase name="testFindByCredentialsId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointRegistrationCassandraDaoTest" time="0.01"/>
+  <testcase name="testFindByEndpointId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointRegistrationCassandraDaoTest" time="0.011"/>
+  <testcase name="testSave" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointUserCassandraDaoTest" time="0.071"/>
+  <testcase name="testFindByExternalIdAndTenantId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointUserCassandraDaoTest" time="0.016"/>
+  <testcase name="testCheckAccessToken" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointUserCassandraDaoTest" time="0.023"/>
+  <testcase name="testRemoveByExternalIdAndTenantId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointUserCassandraDaoTest" time="0.02"/>
+  <testcase name="testGenerateAccessToken" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.EndpointUserCassandraDaoTest" time="0.018"/>
+  <testcase name="testToDto" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.NotificationCassandraDaoTest" time="0.07"/>
+  <testcase name="testSave" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.NotificationCassandraDaoTest" time="0.006"/>
+  <testcase name="testFindNotificationsByTopicId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.NotificationCassandraDaoTest" time="0.015"/>
+  <testcase name="testRemoveById" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.NotificationCassandraDaoTest" time="0.009"/>
+  <testcase name="testFindNotificationsByTopicIdAndVersionAndStartSecNum" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.NotificationCassandraDaoTest" time="0.03"/>
+  <testcase name="testRemoveNotificationsByTopicId" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.NotificationCassandraDaoTest" time="0.016"/>
+  <testcase name="testFindByHash" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.TopicListEntryCassandraDaoTest" time="0.062"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointConfigurationTest" time="0.616"/>
+  <testcase name="EndpointStateTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointGroupStateTest" time="0"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointGroupStateTest" time="0.046"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointNotificationTest" time="0.186"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointProfileTest" time="0.989"/>
+  <testcase name="dataConversionTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointRegistrationTest" time="0"/>
+  <testcase name="equalsVerifierTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointRegistrationTest" time="0.094"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEndpointUserTest" time="0.082"/>
+  <testcase name="basicTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEventClassFamilyVersionStateTest" time="0"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraEventClassFamilyVersionStateTest" time="0.024"/>
+  <testcase name="hashCodeEqualsTest" classname="org.kaaproject.kaa.server.common.nosql.cassandra.dao.model.CassandraNotificationTest" time="0.159"/>
+</testsuite>

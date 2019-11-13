@@ -38,6 +38,7 @@
         <module>mongo-appender</module>
         <module>flume-appender</module>
         <module>rest-appender</module>
+        <module>maria-appender</module>
     </modules>
     <profiles>
         <profile>

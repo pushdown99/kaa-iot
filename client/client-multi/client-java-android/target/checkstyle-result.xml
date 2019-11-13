@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\AndroidKaaPlatformContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\connectivity\AndroidConnectivityChecker.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\logging\AndroidSqLiteDqLogStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\logging\DataCollectionDbHelper.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\persistence\AndroidInternalPersistentStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\transport\AndroidHttpClient.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\transport\ByteArrayBody.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-android\src\main\java\org\kaaproject\kaa\client\util\AndroidBase64.java">
+</file>
+</checkstyle>

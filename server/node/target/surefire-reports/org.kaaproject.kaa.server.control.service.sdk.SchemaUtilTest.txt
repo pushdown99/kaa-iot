@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.control.service.sdk.SchemaUtilTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.726 sec - in org.kaaproject.kaa.server.control.service.sdk.SchemaUtilTest

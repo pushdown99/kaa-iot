@@ -1,0 +1,9 @@
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/avro/mariadb-appender-config.avsc
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/gen/MariaDbConfig.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/gen/MariaDbServer.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/config/MariaDbAppenderConfig.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/MariaDbLogAppender.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/ConnectionManager.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEventDao.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEvent.java
+/var/www/html/kaa/kaa-iot/server/appenders/maria-appender/src/main/java/org/kaaproject/kaa/server/appenders/maria/appender/LogEventMariaDao.java

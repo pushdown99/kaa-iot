@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.common.dao.service.MongoDBCTLSchemaServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.107 sec - in org.kaaproject.kaa.server.common.dao.service.MongoDBCTLSchemaServiceImplTest

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\async\AppendAsyncResultPojo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\async\AppendBatchAsyncResultPojo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\async\AsyncRpcClient.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\async\AvroAsyncRpcClient.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\BalancingFlumeClientManager.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\FlumeClientManager.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\client\PriorityFlumeClientManager.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\FlumeAvroEventBuilder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\FlumeEventBuilder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\appender\FlumeLogAppender.java">
+</file>
+<file name="D:\repos\kaa-iot\server\appenders\flume-appender\src\main\java\org\kaaproject\kaa\server\appenders\flume\config\FlumeAppenderConfig.java">
+</file>
+</checkstyle>

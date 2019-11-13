@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Mon, 11 Nov 2019 07:51:28 +0900
+Source: kaa-flume
+Binary: kaa-flume
+Architecture: all
+Version: 0.10.0
+Distribution: development
+Urgency: low
+Maintainer: kaaproject
+Changed-By: kaaproject
+Description:
+ kaa-flume - Kaa Flume Agents
+Changes:
+ kaa-flume (0.10.0) development; urgency=low
+Checksums-Sha1:
+ d428f024c63df2abdd82e2f60ab6484053bcb05a 31882162 kaa-flume.deb
+Checksums-Sha256:
+ 50e70390037cf0c86604dbac196d0c1fe6c9de86c3f1af28748fa9e866a72492 31882162 kaa-flume.deb
+Files:
+ fb475ec5720699c6deaedc557a144eb9 31882162 misc optional kaa-flume.deb

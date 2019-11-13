@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\netty-server\src\main\java\org\kaaproject\kaa\server\common\server\AbstractNettyServer.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\netty-server\src\main\java\org\kaaproject\kaa\server\common\server\BadRequestException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\netty-server\src\main\java\org\kaaproject\kaa\server\common\server\CommandFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\netty-server\src\main\java\org\kaaproject\kaa\server\common\server\KaaCommandProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\netty-server\src\main\java\org\kaaproject\kaa\server\common\server\KaaCommandProcessorFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\netty-server\src\main\java\org\kaaproject\kaa\server\common\server\NettyChannelContext.java">
+</file>
+</checkstyle>

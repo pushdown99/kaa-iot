@@ -1,0 +1,8 @@
+org.kaaproject.kaa.server.common.dao
+org.kaaproject.kaa.server.common.dao.exception
+org.kaaproject.kaa.server.common.dao.impl
+org.kaaproject.kaa.server.common.dao.impl.sql
+org.kaaproject.kaa.server.common.dao.model
+org.kaaproject.kaa.server.common.dao.model.sql
+org.kaaproject.kaa.server.common.dao.schema
+org.kaaproject.kaa.server.common.dao.service

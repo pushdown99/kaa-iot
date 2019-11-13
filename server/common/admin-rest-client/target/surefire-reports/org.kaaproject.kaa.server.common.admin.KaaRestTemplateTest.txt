@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.common.admin.KaaRestTemplateTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.412 sec - in org.kaaproject.kaa.server.common.admin.KaaRestTemplateTest

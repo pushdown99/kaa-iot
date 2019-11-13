@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.transports.tcp.transport.TcpHandlerTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec - in org.kaaproject.kaa.server.transports.tcp.transport.TcpHandlerTest

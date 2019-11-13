@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\verifiers\trustful-verifier\src\main\java\org\kaaproject\kaa\server\verifiers\trustful\config\TrustfulVerifierConfig.java">
+</file>
+<file name="D:\repos\kaa-iot\server\verifiers\trustful-verifier\src\main\java\org\kaaproject\kaa\server\verifiers\trustful\verifier\TrustfulUserVerifier.java">
+</file>
+</checkstyle>

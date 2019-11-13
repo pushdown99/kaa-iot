@@ -1,0 +1,3 @@
+org.kaaproject.kaa.server.flume
+org.kaaproject.kaa.server.flume.channel
+org.kaaproject.kaa.server.flume.sink.hdfs

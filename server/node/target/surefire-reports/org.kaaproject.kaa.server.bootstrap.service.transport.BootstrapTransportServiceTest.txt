@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.64 sec <<< FAILURE! - in org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest
+messageHandlerProcessTest(org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest)  Time elapsed: 2.64 sec  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+Wanted but not invoked:
+sessionInitMessage.getEncodedMessageData();
+-> at org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest.messageHandlerProcessTest(BootstrapTransportServiceTest.java:71)
+Actually, there were zero interactions with this mock.
+
+	at org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest.messageHandlerProcessTest(BootstrapTransportServiceTest.java:71)
+

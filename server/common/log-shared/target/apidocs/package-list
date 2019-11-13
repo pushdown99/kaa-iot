@@ -1,0 +1,3 @@
+org.kaaproject.kaa.server.common.log.shared
+org.kaaproject.kaa.server.common.log.shared.appender
+org.kaaproject.kaa.server.common.log.shared.appender.data

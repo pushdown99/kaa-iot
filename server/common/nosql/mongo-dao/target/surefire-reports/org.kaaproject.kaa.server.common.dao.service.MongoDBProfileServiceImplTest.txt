@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.common.dao.service.MongoDBProfileServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.478 sec - in org.kaaproject.kaa.server.common.dao.service.MongoDBProfileServiceImplTest

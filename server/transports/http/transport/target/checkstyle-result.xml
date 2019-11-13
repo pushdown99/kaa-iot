@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\commands\AbstractHttpSyncCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\commands\LongSyncCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\commands\LongSyncCommandFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\commands\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\commands\SyncCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\commands\SyncCommandFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\HttpHandler.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\HttpTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\messages\NettyHttpSyncMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\netty\AbstractCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\netty\DefaultExceptionHandler.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\netty\DefaultHttpServerInitializer.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\netty\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\netty\RequestDecoder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\http\transport\src\main\java\org\kaaproject\kaa\server\transports\http\transport\netty\ResponseEncoder.java">
+</file>
+</checkstyle>

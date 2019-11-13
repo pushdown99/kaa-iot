@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\avro\AvroByteArrayConverter.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\avro\AvroDataCanonizationUtils.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\avro\AvroDataComparator.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\avro\AvroJsonConverter.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\avro\GenericAvroConverter.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\avro\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\bootstrap\CommonBsConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\bootstrap\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\communication\HttpLongPollParameters.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\communication\HttpParameters.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\communication\IpParameters.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\communication\KaaTcpParameters.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\communication\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\ParsingException.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\Framer.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\KaaTcpProtocolException.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\ConnAckListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\ConnectListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\DisconnectListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\KaaSyncListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\MessageListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\PingRequestListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\PingResponseListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\SyncRequestListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\listeners\SyncResponseListener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\ConnAck.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\Connect.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\Disconnect.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\KaaSync.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\KaaSyncMessageType.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\MessageFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\MessageType.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\MqttFrame.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\PingRequest.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\PingResponse.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\Sync.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\SyncRequest.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\messages\SyncResponse.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\MqttFramelistener.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\kaatcp\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\channels\protocols\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\Constants.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\endpoint\CommonEpConstans.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\endpoint\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\endpoint\security\KeyUtil.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\endpoint\security\MessageEncoderDecoder.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\endpoint\security\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\hash\EndpointObjectHash.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\hash\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\hash\Sha1HashUtils.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\endpoint-shared\src\main\java\org\kaaproject\kaa\common\TransportType.java">
+</file>
+</checkstyle>

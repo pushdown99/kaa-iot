@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\ApplicationEventMapService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\ApplicationService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\ConfigurationService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\CredentialsService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\CtlService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\DaoConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\EndpointRegistrationService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\EndpointService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\EventClassService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\CredentialsServiceException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\DatabaseProcessingException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\EndpointRegistrationServiceException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\IncorrectParameterException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\KaaOptimisticLockingFailureException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\NotFoundException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\exception\UpdateStatusConflictException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\HistoryService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ApplicationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ApplicationEventFamilyMapDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ConfigurationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ConfigurationSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\CredentialsDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\CtlSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\CtlSchemaMetaInfoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\Dao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\DaoUtil.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointConfigurationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointGroupDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointNotificationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointProfileDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointRegistrationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointUserConfigurationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EndpointUserDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EventClassDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\EventClassFamilyDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\HistoryDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\LogAppenderDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\LogSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\NotificationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\NotificationSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ProfileFilterDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ProfileSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\SdkProfileDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\ServerProfileSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateAbstractDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateApplicationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateApplicationEventFamilyMapDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateConfigurationDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateConfigurationSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateCtlSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateCtlSchemaMetaInfoDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateEndpointGroupDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateEventClassDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateEventClassFamilyDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateHistoryDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateLogAppenderDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateLogSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateNotificationSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateProfileFilterDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateProfileSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateSdkProfileDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateServerProfileSchemaDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateTenantDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateTopicDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateUserDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\HibernateUserVerifierDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\sql\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\SqlDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\TenantDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\TopicDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\TopicListEntryDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\UserDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\impl\UserVerifierDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\LogAppendersService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\LogSchemaService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\Credentials.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\EndpointConfiguration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\EndpointNotification.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\EndpointProfile.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\EndpointRegistration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\EndpointUser.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\EndpointUserConfiguration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\Notification.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\AbstractStructure.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Application.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\ApplicationEventFamilyMap.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\ApplicationEventMap.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\BaseSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Change.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Configuration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\ConfigurationSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\CtlSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\CtlSchemaMetaInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\EndpointGroup.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\EndpointProfileSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\EventClass.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\EventClassFamily.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\EventClassFamilyVersion.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\GenericModel.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\HasVersion.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\History.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\LogAppender.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\LogSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\ModelUtils.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\NotificationSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Plugin.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\ProfileFilter.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Schema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\SdkProfile.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\ServerProfileSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Tenant.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\Topic.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\User.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\sql\UserVerifier.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\ToDto.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\model\TopicListEntry.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\NotificationService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\ProfileService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\schema\EventSchemaException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\schema\EventSchemaMetadata.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\schema\EventSchemaProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\schema\EventSchemaProcessorImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\SdkProfileService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\ServerProfileService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\ApplicationEventMapServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\ApplicationServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\ConfigurationServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\CtlServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\EndpointRegistrationServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\EndpointServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\EventClassServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\HistoryServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\InternalCredentialsService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\LogAppenderServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\LogSchemaServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\NotificationServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\ProfileServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\SdkProfileServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\SdkTokenGenerator.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\ServerProfileServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\TopicServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\TrustfulCredentialsService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\UserConfigurationServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\UserServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\UserVerifierServiceImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\service\Validator.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\TopicService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\UserConfigurationService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\UserService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\java\org\kaaproject\kaa\server\common\dao\UserVerifierService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\resources\nosql-dao.properties">
+</file>
+<file name="D:\repos\kaa-iot\server\common\dao\src\main\resources\sql-dao.properties">
+</file>
+</checkstyle>

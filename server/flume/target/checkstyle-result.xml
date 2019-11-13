@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/ConfigurationConstants.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/channel/KaaLoadChannelSelector.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/KaaHdfsSink.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/KaaRecordEvent.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/EventConstants.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/AvroKaaEventSerializer.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/KaaEventFactory.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/BucketWriter.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/HdfsSinkKey.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/KaaSinkKey.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/flume/src/main/java/org/kaaproject/kaa/server/flume/sink/hdfs/AvroSchemaSource.java">
+</file>
+</checkstyle>

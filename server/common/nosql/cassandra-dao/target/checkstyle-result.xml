@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\AbstractCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\AbstractVersionableCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\CassandraDaoUtil.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\CassandraEntityMapper.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\client\CassandraClient.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\client\CassandraClientOptions.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\CredentialsCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\EndpointConfigurationCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\EndpointNotificationCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\EndpointProfileCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\EndpointRegistrationCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\EndpointUserCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\EndpointUserConfigurationCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\filter\CassandraEpByAccessTokenDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\filter\CassandraEpByAppIdDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\filter\CassandraEpByEndpointGroupIdDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\filter\CassandraEpBySdkTokenDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\filter\CassandraEpRegistrationByEndpointIdDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraCredentials.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEndpointConfiguration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEndpointNotification.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEndpointProfile.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEndpointRegistration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEndpointUser.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEndpointUserConfiguration.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEpByAccessToken.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEpByAppId.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEpByEndpointGroupId.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEpBySdkToken.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraEpRegistrationByEndpointId.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraModelConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraNotification.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\CassandraTopicListEntry.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\type\CassandraEndpointGroupState.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\type\CassandraEventClassFamilyVersionState.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\model\type\NotificationTypeCodec.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\NotificationCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\java\org\kaaproject\kaa\server\common\nosql\cassandra\dao\TopicListEntryCassandraDao.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\nosql\cassandra-dao\src\main\resources\common-dao-cassandra.properties">
+</file>
+</checkstyle>

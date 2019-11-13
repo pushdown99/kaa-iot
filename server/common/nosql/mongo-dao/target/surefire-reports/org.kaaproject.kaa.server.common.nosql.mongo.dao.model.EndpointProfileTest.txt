@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.common.nosql.mongo.dao.model.EndpointProfileTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.762 sec - in org.kaaproject.kaa.server.common.nosql.mongo.dao.model.EndpointProfileTest

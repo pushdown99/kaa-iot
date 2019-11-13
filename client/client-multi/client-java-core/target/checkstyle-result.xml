@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\AbstractKaaClient.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\BaseKaaClient.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\bootstrap\BootstrapManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\bootstrap\BootstrapRuntimeException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\bootstrap\DefaultBootstrapManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\bootstrap\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\BootstrapTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\ChannelDirection.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\ConfigurationTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\connectivity\ConnectivityChecker.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\EventTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\failover\DefaultFailoverManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\failover\FailoverDecision.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\failover\FailoverManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\failover\FailoverStatus.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\failover\strategies\DefaultFailoverStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\failover\strategies\FailoverStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\GenericTransportInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\ChannelRuntimeException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\AbstractHttpChannel.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\DefaultBootstrapChannel.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\DefaultOperationHttpChannel.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\DefaultOperationsChannel.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\DefaultOperationTcpChannel.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\HttpRequestCreator.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\CancelableCommandRunnable.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\CancelableRunnable.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\CancelableScheduledFuture.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\Command.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\PollCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\channels\polling\RawDataProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\DefaultBootstrapDataProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\DefaultChannelManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\DefaultOperationDataProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\sync\SyncTask.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\AbstractKaaTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultBootstrapTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultConfigurationTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultEventTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultLogTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultMetaDataTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultNotificationTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultProfileTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultRedirectionTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\DefaultUserTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\impl\transports\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\IpTransportInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaChannelManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaDataChannel.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaDataDemultiplexer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaDataMultiplexer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaInternalChannelManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaInvalidChannelException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\KaaTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\LogTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\MetaDataTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\NotificationTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\ProfileTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\RedirectionTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\ServerType.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\TransportConnectionInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\TransportProtocolId.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\TransportProtocolIdConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\channel\UserTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\AvroGenericUtils.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonArray.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonEnum.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonFixed.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonRecord.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonToGeneric.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\CommonValue.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\DefaultCommonArray.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\DefaultCommonEnum.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\DefaultCommonFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\DefaultCommonFixed.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\DefaultCommonRecord.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\DefaultCommonValue.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\common\SchemaDependent.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\AbstractConfigurationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\ConfigurationDeserializer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\ConfigurationListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\ConfigurationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\GenericConfigurationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\ResyncConfigurationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\base\SimpleConfigurationStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\ConfigurationHashContainer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\ConfigurationProcessedObservable.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\ConfigurationProcessedObserver.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\ConfigurationProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\ConfigurationRuntimeException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\DecodedDeltaObservable.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\DefaultConfigurationProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\GenericDeltaReceiver.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\manager\ConfigurationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\manager\ConfigurationReceiver.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\manager\DefaultConfigurationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\manager\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\storage\ConfigurationPersistenceManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\storage\ConfigurationStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\configuration\storage\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\context\AbstractExecutorContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\context\ExecutorContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\context\FlexibleExecutorContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\context\SimpleExecutorContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\context\SingleThreadExecutorContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\context\TransportContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\DefaultEventManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\EndpointAccessToken.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\EndpointKeyHash.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\EventFamily.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\EventFamilyFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\EventListenersResolver.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\EventManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\FindEventListenersCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\AttachEndpointToUserCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\ChangedAttachedEndpointListCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\DefaultEndpointRegistrationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\DetachEndpointFromUserCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\EndpointRegistrationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\EndpointRegistrationProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\OnAttachEndpointOperationCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\OnDetachEndpointOperationCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\UserAttachCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\event\registration\UserVerifierConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\exceptions\KaaClusterConnectionException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\exceptions\KaaException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\exceptions\KaaInvalidConfigurationException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\exceptions\KaaRuntimeException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\exceptions\KaaUnsupportedPlatformException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\FailureListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\GenericKaaClient.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\Kaa.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\KaaClient.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\KaaClientPlatformContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\KaaClientProperties.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\KaaClientStateListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\AbstractLogCollector.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\AccessPointCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\BucketInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\DefaultLogCollector.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\DefaultLogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\future\ExecutionResult.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\future\RecordFuture.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\GenericLogCollector.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogBucket.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogCollector.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogDeliveryListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogFailoverCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogRecord.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogStorageStatus.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\LogUploadStrategyDecision.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\memory\MemBucket.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\memory\MemLogStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\PersistentLogStorageConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\RecordInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\strategies\PeriodicLogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\strategies\RecordCountLogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\strategies\RecordCountWithTimeLimitLogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\strategies\StorageSizeLogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\logging\strategies\StorageSizeWithTimeLimitLogUploadStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\DefaultNotificationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\NotificationDeserializer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\NotificationListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\NotificationListenerInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\NotificationManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\NotificationProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\NotificationTopicListListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\TopicListHashCalculator.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\notification\UnavailableTopicException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\persistence\FilePersistentStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\persistence\KaaClientPropertiesState.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\persistence\KaaClientState.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\persistence\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\persistence\PersistentStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\profile\DefaultProfileManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\profile\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\profile\ProfileContainer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\profile\ProfileManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\profile\ProfileRuntimeException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\profile\ProfileSerializer.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\DefaultSchemaProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\SchemaObservable.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\SchemaProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\SchemaRuntimeException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\SchemaUpdatesReceiver.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\storage\DefaultSchemaPersistenceManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\storage\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\storage\SchemaPersistenceManager.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\schema\storage\SchemaStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\SimpleKaaClientStateListener.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\transact\Transactable.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\transact\TransactionId.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\transport\AbstractHttpClient.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\transport\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\transport\TransportException.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\util\Base64.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\util\CommonsBase64.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\java\org\kaaproject\kaa\client\util\Utils.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-core\src\main\resources\client.properties">
+</file>
+</checkstyle>

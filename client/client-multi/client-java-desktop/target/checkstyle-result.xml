@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-desktop\src\main\java\org\kaaproject\kaa\client\connectivity\PingConnectivityChecker.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-desktop\src\main\java\org\kaaproject\kaa\client\DesktopKaaPlatformContext.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-desktop\src\main\java\org\kaaproject\kaa\client\logging\DesktopSqLiteDbLogStorage.java">
+</file>
+<file name="D:\repos\kaa-iot\client\client-multi\client-java-desktop\src\main\java\org\kaaproject\kaa\client\transport\DesktopHttpClient.java">
+</file>
+</checkstyle>

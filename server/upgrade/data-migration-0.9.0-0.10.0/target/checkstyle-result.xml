@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/MigrateData.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/BaseSchemaIdCounter.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/DataSources.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/datadefinition/Constraint.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/datadefinition/ReferenceOptions.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/datadefinition/ConstraintType.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/datadefinition/BuilderException.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/datadefinition/DataDefinition.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/Options.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/utils/Utils.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/BaseSchemaRecordsCreation.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/CtlNotificationMigration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/CtlConfigurationMigration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/AbstractCtlMigration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/MigrationException.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/CtlEventsMigration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/CtlAggregation.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/UpdateUuidsMigration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/CtlMetaInfo.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/FlatCtl.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/Schema.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/EventClass.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/EventSchemaVersion.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/Ctl.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/model/Configuration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/CtlLogMigration.java">
+</file>
+<file name="/var/www/html/kaa/kaa-iot/server/upgrade/data-migration-0.9.0-0.10.0/src/main/java/org/kaaproject/kaa/server/datamigration/EndpointProfileMigration.java">
+</file>
+</checkstyle>

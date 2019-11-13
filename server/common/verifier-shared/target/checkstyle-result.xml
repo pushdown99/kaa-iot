@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\verifier-shared\src\main\java\org\kaaproject\kaa\server\common\verifier\AbstractKaaUserVerifier.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\verifier-shared\src\main\java\org\kaaproject\kaa\server\common\verifier\UserVerifier.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\verifier-shared\src\main\java\org\kaaproject\kaa\server\common\verifier\UserVerifierCallback.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\verifier-shared\src\main\java\org\kaaproject\kaa\server\common\verifier\UserVerifierContext.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\verifier-shared\src\main\java\org\kaaproject\kaa\server\common\verifier\UserVerifierErrorCode.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\verifier-shared\src\main\java\org\kaaproject\kaa\server\common\verifier\UserVerifierLifecycleException.java">
+</file>
+</checkstyle>

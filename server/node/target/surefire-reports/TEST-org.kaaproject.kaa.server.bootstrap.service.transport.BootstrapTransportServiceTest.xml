@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest" time="2.64" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\repos\kaa-iot"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\repos\kaa-iot"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hjlee\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Wizvera\Delfino;C:\Program Files (x86)\Common Files\NetSarang;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\apache-maven-3.0.5\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\PuTTY\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;C:\Ruby26-x64\bin;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;d:\php;C:\Program Files\CMake\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\dotnet\;C:\Users\hjlee\.dotnet\tools;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Users\hjlee\.windows-build-tools\python27\Scripts;C:\Users\hjlee\.windows-build-tools\python27;C:\ffmpeg\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\gwt-2.8.2;C:\apache-ant-1.10.7\bin;C:\Users\hjlee\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\GNU Tools ARM Embedded\6 2017-q2-update\bin;C:\Users\hjlee\.windows-build-tools\python27\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.0\bin;C:\Users\hjlee\.dotnet\tools;C:\Program Files\dotnet;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\apache-maven-3.6.1\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\bin;;C:\Program Files\Docker Toolbox;C:\Users\hjlee\.windows-build-tools\python27\Scripts;C:\ffmpeg\bin;C:\gwt-2.8.2;C:\apache-ant-1.10.7\bin;C:\Users\hjlee\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\hjlee"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="MS949"/>
+    <property name="user.name" value="hjlee"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -f d:\repos\kaa-iot\server\pom.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms949"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms949"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="messageHandlerProcessTest" classname="org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest" time="2.64">
+    <failure message="&#10;Wanted but not invoked:&#10;sessionInitMessage.getEncodedMessageData();&#10;-&gt; at org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest.messageHandlerProcessTest(BootstrapTransportServiceTest.java:71)&#10;Actually, there were zero interactions with this mock.&#10;" type="org.mockito.exceptions.verification.WantedButNotInvoked">org.mockito.exceptions.verification.WantedButNotInvoked: 
+Wanted but not invoked:
+sessionInitMessage.getEncodedMessageData();
+-> at org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest.messageHandlerProcessTest(BootstrapTransportServiceTest.java:71)
+Actually, there were zero interactions with this mock.
+
+	at org.kaaproject.kaa.server.bootstrap.service.transport.BootstrapTransportServiceTest.messageHandlerProcessTest(BootstrapTransportServiceTest.java:71)
+</failure>
+    <system-out><![CDATA[2019-11-12 17:33:08,745 [main] INFO  o.k.k.s.b.s.t.BootstrapTransportService - Lookup platform protocols
+2019-11-12 17:33:10,095 [main] INFO  o.k.k.s.b.s.t.BootstrapTransportService - Initializing message handler with 1 worker threads
+2019-11-12 17:33:10,098 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of available transport configurations started in package org.kaaproject.kaa.server.transport.
+2019-11-12 17:33:10,119 [main] INFO  o.k.k.s.t.AbstractTransportService - Found transport configuration org.kaaproject.kaa.server.transport.http.config.HttpTransportConfig
+2019-11-12 17:33:10,122 [main] INFO  o.k.k.s.t.AbstractTransportService - Found transport configuration org.kaaproject.kaa.server.transport.tcp.config.TcpTransportConfig
+2019-11-12 17:33:10,124 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of available transport configurations found 2 configurations.
+2019-11-12 17:33:10,124 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of transport properties started
+2019-11-12 17:33:10,125 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of transport properties found 0 properties
+2019-11-12 17:33:10,125 [main] INFO  o.k.k.s.t.AbstractTransportService - Initializing transport with name org.kaaproject.kaa.server.transport.http and class org.kaaproject.kaa.server.transports.http.transport.HttpTransport
+2019-11-12 17:33:10,130 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of transport configuration file bootstrap-http-transport.config
+2019-11-12 17:33:10,156 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of transport configuration file bootstrap-http-transport.config
+2019-11-12 17:33:10,163 [main] INFO  o.k.k.s.t.AbstractKaaTransport - Initializing transport org.kaaproject.kaa.server.transports.http.transport.HttpTransport with {"bindInterface": "${transport_bind_interface}", "bindPort": 9889, "publicInterface": "${transport_public_interface}", "publicPorts": "9889", "maxBodySize": 524288}
+2019-11-12 17:33:10,184 [main] INFO  o.k.k.s.t.AbstractKaaTransport - Transport org.kaaproject.kaa.server.transports.http.transport.HttpTransport initialized with {"bindInterface": "localhost", "bindPort": 9889, "publicInterface": "localhost", "publicPorts": "9889", "maxBodySize": 524288}
+2019-11-12 17:33:10,185 [main] INFO  o.k.k.s.t.AbstractTransportService - Initializing transport with name org.kaaproject.kaa.server.transport.tcp and class org.kaaproject.kaa.server.transports.tcp.transport.TcpTransport
+2019-11-12 17:33:10,187 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of transport configuration file bootstrap-tcp-transport.config
+2019-11-12 17:33:10,190 [main] INFO  o.k.k.s.t.AbstractTransportService - Lookup of transport configuration file bootstrap-tcp-transport.config
+2019-11-12 17:33:10,190 [main] INFO  o.k.k.s.t.AbstractKaaTransport - Initializing transport org.kaaproject.kaa.server.transports.tcp.transport.TcpTransport with {"bindInterface": "${transport_bind_interface}", "bindPort": 9888, "publicInterface": "${transport_public_interface}", "publicPorts": "9888"}
+2019-11-12 17:33:10,192 [main] INFO  o.k.k.s.t.AbstractKaaTransport - Transport org.kaaproject.kaa.server.transports.tcp.transport.TcpTransport initialized with {"bindInterface": "localhost", "bindPort": 9888, "publicInterface": "localhost", "publicPorts": "9888"}
+2019-11-12 17:33:10,208 [pool-1-thread-1] TRACE o.k.k.c.e.s.MessageEncoderDecoder - Creating MessageEncoderDecoder with
+PublicKey 30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00 AC 82 F7 AB A3 12 DE 01 63 94 67 49 5B A1 31 B0 55 3B 5E C8 1F E6 32 58 56 FB 4F A4 2D 81 96 F1 CB 71 C0 AB B7 A9 86 8A 3A 50 92 94 B5 9E B8 CE 1C AA E4 40 23 27 19 D9 B6 AC D3 7C 79 37 06 F9 D7 5F 00 55 2D 3F A8 0D A2 AD B8 BE 6B C2 20 35 56 EE 1A CF AA 8A B5 CD 13 2C 21 4E AD 9F 81 12 5E F6 3E 32 7F E8 02 8F 4E 00 DD 2D F0 12 86 B1 7F 5B 05 9F 22 18 3C 75 9E 7B 8E C4 04 E8 6C 00 FD CD 75 27 77 BF 6D 17 78 B3 26 AC 32 6A E3 B7 CF AA 68 14 5C 09 BA A6 B9 74 19 F9 6E 1C 3A 2D 61 F8 07 80 E1 96 3D DB 74 D3 C3 72 37 75 CF 61 BB 05 63 BA C2 C7 9F EE 56 A1 C3 26 00 23 6E F2 47 FE 2B 51 46 7E 21 73 48 FB DB 16 5A 72 E0 3F 04 48 3D F9 5B 35 0A CB 4E 37 05 44 D6 59 CA E6 F6 82 D8 22 0B 69 93 49 EA 20 6B 6B 91 80 D1 0F 25 4B 5E E8 78 A0 E5 C6 48 D3 08 ED 08 AE 77 D5 02 03 01 00 01 ;
+RemotePublicKey empty
+2019-11-12 17:33:10,211 [pool-1-thread-1] INFO  o.k.k.s.sync.platform.PlatformLookup - Successfully initialized platform protocol org.kaaproject.kaa.server.sync.platform.BinaryEncDec
+2019-11-12 17:33:10,225 [pool-1-thread-1] INFO  o.k.k.s.sync.platform.PlatformLookup - Successfully initialized platform protocol org.kaaproject.kaa.server.sync.platform.RawConfigurationSchemaAvroEncDec
+2019-11-12 17:33:10,226 [pool-1-thread-1] INFO  o.k.k.s.sync.platform.PlatformLookup - Successfully initialized platform protocol org.kaaproject.kaa.server.sync.platform.RawConfigurationSchemaBinaryEncDec
+2019-11-12 17:33:10,226 [pool-1-thread-1] INFO  o.k.k.s.sync.platform.PlatformLookup - Successfully initialized platform protocol org.kaaproject.kaa.server.sync.platform.AvroEncDec
+]]></system-out>
+  </testcase>
+</testsuite>

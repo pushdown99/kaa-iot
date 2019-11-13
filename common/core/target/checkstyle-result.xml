@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\AvroUtils.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\CommonConstants.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\AvroBinaryDelta.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\BaseBinaryDelta.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\DefaultDeltaCalculationAlgorithm.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\DefaultDeltaCalculatorFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\DeltaCalculationAlgorithm.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\DeltaCalculatorException.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\DeltaCalculatorFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\delta\RawBinaryDelta.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\generation\ConfigurationGenerationException.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\generation\DefaultRecordGenerationAlgorithm.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\generation\DefaultRecordGenerationAlgorithmImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\generation\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\ArrayOverrideStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\ArrayOverrideStrategyResolver.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\DefaultOverrideAlgorithm.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\DefaultOverrideAlgorithmFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\OverrideAlgorithm.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\OverrideAlgorithmFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\override\OverrideException.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\AbstractSchemaStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\BaseDataSchemaStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\OverrideDataSchemaStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\package-info.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\ProtocolSchemaStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaCreationException.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaCreationStrategy.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaCreator.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaCreatorImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaGenerationAlgorithm.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaGenerationAlgorithmFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaGenerationAlgorithmFactoryImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\schema\SchemaGenerationAlgorithmImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\validator\DefaultUuidValidator.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\algorithms\validator\UuidValidator.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\AbstractConfigurationData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\AbstractKaaData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\BaseData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\BaseDataFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\KaaData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\KaaDataFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\OverrideData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\OverrideDataFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\ProfileData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\ProfileDataFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\ProtocolData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\ProtocolDataFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\RawData.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\configuration\RawDataFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\AbstractKaaSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\BaseSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\DataSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\KaaSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\KaaSchemaFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\KaaSchemaFactoryImpl.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\OverrideSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\ProtocolSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\schema\RawSchema.java">
+</file>
+<file name="D:\repos\kaa-iot\common\core\src\main\java\org\kaaproject\kaa\server\common\core\structure\Pair.java">
+</file>
+</checkstyle>

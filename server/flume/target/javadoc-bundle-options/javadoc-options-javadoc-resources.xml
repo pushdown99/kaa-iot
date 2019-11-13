@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <excludePackageNames>
+    <excludePackageName>*.gen.*</excludePackageName>
+    <excludePackageName>org.kaaproject.kaa.server.admin.client.i18n</excludePackageName>
+    <excludePackageName>org.kaaproject.kaa.server.admin.shared.services</excludePackageName>
+    <excludePackageName>org.kaaproject.kaa.schema.base</excludePackageName>
+  </excludePackageNames>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>

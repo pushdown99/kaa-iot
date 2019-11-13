@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.common.nosql.mongo.dao.NotificationMongoDaoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.755 sec - in org.kaaproject.kaa.server.common.nosql.mongo.dao.NotificationMongoDaoTest

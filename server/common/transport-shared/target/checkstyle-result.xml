@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\AbstractKaaTransport.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\AbstractTransportService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\channel\ChannelAware.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\channel\ChannelContext.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\channel\ChannelType.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\EndpointRevocationException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\EndpointVerificationError.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\EndpointVerificationException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\GenericTransportContext.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\InvalidSdkTokenException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\KaaTransportConfig.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\AbstractMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\ErrorBuilder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\Message.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\MessageBuilder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\MessageHandler.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\SessionAwareMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\SessionControlMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\SessionDisconnectMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\SessionInitMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\message\SessionPingMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\platform\PlatformAware.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\RangeExpressionParser.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\session\SessionAware.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\session\SessionCreateListener.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\session\SessionInfo.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\SpecificTransportContext.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\Transport.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportConfig.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportContext.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportLifecycleException.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportMetaData.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportProperties.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportService.java">
+</file>
+<file name="D:\repos\kaa-iot\server\common\transport-shared\src\main\java\org\kaaproject\kaa\server\transport\TransportUpdateListener.java">
+</file>
+</checkstyle>

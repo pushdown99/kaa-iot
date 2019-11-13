@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="7.0">
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\commands\KaaTcpCommand.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\commands\KaaTcpCommandFactory.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\messages\NettyTcpConnectMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\messages\NettyTcpDisconnectMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\messages\NettyTcpPingMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\messages\NettyTcpSyncMessage.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\netty\AbstractKaaTcpCommandProcessor.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\netty\AbstractKaaTcpServerInitializer.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\netty\KaaTcpDecoder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\netty\KaaTcpEncoder.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\netty\KaaTcpExceptionHandler.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\TcpHandler.java">
+</file>
+<file name="D:\repos\kaa-iot\server\transports\tcp\transport\src\main\java\org\kaaproject\kaa\server\transports\tcp\transport\TcpTransport.java">
+</file>
+</checkstyle>

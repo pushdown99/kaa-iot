@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.operations.service.filter.FilterQueryLanguageTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in org.kaaproject.kaa.server.operations.service.filter.FilterQueryLanguageTest

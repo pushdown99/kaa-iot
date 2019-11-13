@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.kaaproject.kaa.server.appenders.flume.appender.FlumeLogAppenderTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.168 sec - in org.kaaproject.kaa.server.appenders.flume.appender.FlumeLogAppenderTest
