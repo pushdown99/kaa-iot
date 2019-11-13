@@ -112,7 +112,10 @@ public class MariaDbLogAppender extends AbstractLogAppender<MariaDbConfig> {
     JsonParser  parser  = new JsonParser();
     JsonObject  object  = parser.parse(event).getAsJsonObject();
 
-    LOG.info("[MARIA] getSql {}", object.getAsString());
+    Set<String> keys = object.keySet();
+    LOG.info("[MARIA] getSql {}", keys);
+    LOG.info("[MARIA] getSql {}", object.get("temperature"));
+    LOG.info("[MARIA] getSql {}", object);
   }
 
   @Override
