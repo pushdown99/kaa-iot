@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="7.0">
-<file name="d:\repos\kaa-iot\server\appenders\maria-appender\src\main\java\org\kaaproject\kaa\server\appenders\maria\appender\ConnectionManager.java">
-</file>
 <file name="d:\repos\kaa-iot\server\appenders\maria-appender\src\main\java\org\kaaproject\kaa\server\appenders\maria\appender\LogEvent.java">
 </file>
 <file name="d:\repos\kaa-iot\server\appenders\maria-appender\src\main\java\org\kaaproject\kaa\server\appenders\maria\appender\LogEventDao.java">

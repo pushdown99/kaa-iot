@@ -124,5 +124,4 @@ public class MongoDbLogAppender extends AbstractLogAppender<MongoDbConfig> {
     }
     LOG.debug("Stoped MongoDB log appender.");
   }
-
 }

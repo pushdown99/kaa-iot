@@ -1,24 +1,29 @@
 package org.kaaproject.kaa.server.appenders.maria.appender;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
 import org.kaaproject.kaa.common.dto.logs.LogEventDto;
 import org.kaaproject.kaa.server.common.log.shared.avro.gen.RecordHeader;
 
 import java.util.List;
 
-/**
- * 
- * @author Kim Jun Hyo, Araitech
- * @version 1.0.1
- * @since  2019-06-24 
- *
- */
 public interface LogEventDao {
 
-  void insert(RecordHeader header, List<LogEventDto> logEventDtos) throws Exception;
+  JsonObject getJsonObject(String json);
 
-  void doExecuteSql(String sql) throws Exception;
+  JsonArray getJsonSchema(String schema);
 
-  boolean tblExist(String tbl) throws Exception;
+  String getSchemaField(String name, String type);
+
+  void createTable(String tableName, String schema);
+
+  void executeSql(String qry);
+
+  void save(List<LogEventDto> logEventDtos, String collectionName);
+
+  void removeAll(String tableName);
 
   void close();
 
