@@ -696,6 +696,11 @@ Copyright 2014-2016 CyberVision, Inc.
             </dependency>
             <dependency>
                 <groupId>org.kaaproject.kaa.server.appenders</groupId>
+                <artifactId>maria-appender</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.kaaproject.kaa.server.appenders</groupId>
                 <artifactId>mongo-appender</artifactId>
                 <version>${project.version}</version>
             </dependency>

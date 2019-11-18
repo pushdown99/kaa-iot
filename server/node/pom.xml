@@ -320,6 +320,11 @@
         </dependency>
         <dependency>
             <groupId>org.kaaproject.kaa.server.appenders</groupId>
+            <artifactId>maria-appender</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.kaaproject.kaa.server.appenders</groupId>
             <artifactId>mongo-appender</artifactId>
             <scope>runtime</scope>
         </dependency>
