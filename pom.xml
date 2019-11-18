@@ -32,7 +32,7 @@ Copyright 2014-2016 CyberVision, Inc.
         <main.dir>${basedir}</main.dir>
         <avro-ui.version>0.2.1</avro-ui.version>
         <lombok.version>1.16.10</lombok.version>
-        <akka.version>2.4.1</akka.version>
+        <akka.version>2.5.26</akka.version>
         <spring.version>4.2.5.RELEASE</spring.version>
         <spring.security.version>3.2.9.RELEASE</spring.security.version>
         <spring.data.mongodb.version>1.9.4.RELEASE</spring.data.mongodb.version>
