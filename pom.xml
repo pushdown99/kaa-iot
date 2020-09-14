@@ -130,7 +130,7 @@ Copyright 2014-2016 CyberVision, Inc.
 
         <iharder.version>2.3.8</iharder.version>
         <hsqldb.version>2.3.2</hsqldb.version>
-        <ant.version>1.9.4</ant.version>
+        <ant.version>1.9.15</ant.version>
         <hibernate-jpa-2.1-api.version>1.0.0.Final</hibernate-jpa-2.1-api.version>
         <jetty.version>9.2.2.v20140723</jetty.version>
         <kafka.clients.version>0.8.2.0</kafka.clients.version>
