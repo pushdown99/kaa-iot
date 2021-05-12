@@ -34,7 +34,7 @@ Copyright 2014-2016 CyberVision, Inc.
         <lombok.version>1.16.10</lombok.version>
         <akka.version>2.4.1</akka.version>
         <spring.version>4.2.5.RELEASE</spring.version>
-        <spring.security.version>3.2.9.RELEASE</spring.security.version>
+        <spring.security.version>5.2.10.RELEASE</spring.security.version>
         <spring.data.mongodb.version>1.9.4.RELEASE</spring.data.mongodb.version>
         <spring.data.couchbase.version>2.1.4.RELEASE</spring.data.couchbase.version>
 
