@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <main.dir>${basedir}/../../..</main.dir>
         <!-- DO NOT TOUCH THIS PROPERTY AND ITS USAGE-->
-        <android.httpclient.version>4.0.1</android.httpclient.version>
+        <android.httpclient.version>4.5.13</android.httpclient.version>
         <android.commons.codec.version>1.2</android.commons.codec.version>
         <robolectric.version>2.4</robolectric.version>
     </properties>
