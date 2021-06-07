@@ -91,7 +91,7 @@ Copyright 2014-2016 CyberVision, Inc.
 
         <slf4j.version>1.7.7</slf4j.version>
         <slf4j-android.version>1.7.7</slf4j-android.version>
-        <logback.version>1.1.2</logback.version>
+        <logback.version>1.2.0</logback.version>
         <logback-ext-spring.version>0.1.2</logback-ext-spring.version>
 
         <metrics.version>3.1.0</metrics.version>
