@@ -54,7 +54,7 @@ Copyright 2014-2016 CyberVision, Inc.
         <aspectj.version>1.7.4</aspectj.version>
         <twitter.common.thrift.version>0.0.64</twitter.common.thrift.version>
 
-        <hadoop.version>2.4.1</hadoop.version>
+        <hadoop.version>3.2.3</hadoop.version>
         <flume.version>1.5.0.1</flume.version>
 
         <netty.version>4.0.34.Final</netty.version>
